@@ -39,7 +39,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 20px 0px 60px;
+    padding: 20px 0px 100px;
     background-color: var(--purple);
 }
 
@@ -67,6 +67,10 @@ ul {
     font-family: open sans;
 }
 
+span {
+    color: var(--pink);
+}
+
 /*Case Studies*/
 
 .projects{
@@ -74,6 +78,17 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     padding: 0px 40px;
+}
+
+/*Let's Connect*/
+.contact-icons {
+    width: 100px;
+    justify-content: space-between;
+    color: var(--purple);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
 /* Colors */
