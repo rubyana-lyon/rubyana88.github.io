@@ -1,0 +1,94 @@
+/* global */
+body{
+    font-family: Noto Serif, Open Sans, sans-serif;
+}
+.link {
+    color: var(--pink);
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+h2{
+    text-align: center;
+    color: var(--purple);
+    font-weight: bold;
+}
+
+h3 {
+    color: var(--pink);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    font-family: open sans;
+}
+
+/*Hero*/
+
+.landing-hero {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px 0px 60px;
+    background-color: var(--purple);
+}
+
+h1 {
+    color: var(--light-purple);
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 224px;
+    max-height: 56px;
+    padding-left: 20px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.landing-hero ul li {
+    padding: 0 20px 0 0;
+    color: var(--light-purple);
+    font-family: open sans;
+}
+
+/*Case Studies*/
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 0px 40px;
+}
+
+/* Colors */
+:root{
+    --purple:#31258F;
+}
+:root{
+    --pink:#FC1577;
+}
+:root{
+    --light-purple:#D2CDF4;
+}
+:root{
+    --dark-blue:#011737;
+}
+:root{
+    --teal:#48D2EE;
+}
