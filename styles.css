@@ -41,12 +41,9 @@ p {
 }
 
 .landing-hero {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
     padding: 20px 0px 100px;
     background-image: linear-gradient(90deg, #011737 0%, #31258F 70%);
-    padding: 180px 176px;
+    padding: 40px 0px 150px 0px;
 }
 
 h1 {
@@ -58,24 +55,39 @@ h1 {
 .logo {
     max-width: 224px;
     max-height: 56px;
-    padding:20px;
+    padding: 0px 20px;
+    position: relative;
+    display: inline;
 }
 
 ul {
     list-style: none;
-    display: flex;
+    width: 100%;
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
 }
 
 .landing-hero ul li {
     padding: 0 20px 0 0;
     color: var(--light-purple);
     font-family: open sans;
+    position: relative;
+    display: inline;
+}
+
+.hero-text{
+padding: 70px;
+position: relative;
+top: 40px;
 }
 
 .hero-text-2{
     color: var(--light-purple);
     text-align: center;
     font-size: 36px;
+    position: relative;
+    bottom: 30px;
 }
 
 span {
