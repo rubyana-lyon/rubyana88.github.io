@@ -7,6 +7,12 @@
 
 body{
     font-family: Poppins, sans-serif;
+    color: var(--dark-blue);
+}
+
+h1, h2, h3 {
+    font-family: Frank-Ruhl-Libre, serf;
+    color: var(--dark-blue);
 }
 
 /*Hero*/
