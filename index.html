@@ -5,7 +5,7 @@
         <title>Ruby Lyon</title>
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link href="https://unpkg.com/ionicons@4.4.8/dist/css/ionicons.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link rel="stylesheet" href="css/animate.css"/>
@@ -14,7 +14,7 @@
         <script>
             new WOW().init();
         </script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--- Global site tag (gtag.js) - Google Analytics --->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134155547-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -24,69 +24,108 @@
   gtag('config', 'UA-134155547-1');
 </script>
     </head>
+
+<!--- Landing Nav --------------->
 <body>
     <header>
-        <section class="landing">
-        <div class="navbar">
-        <img class="logo" src="images/logo.png" alt="Ruby Lyon">
-        <div class="nav-menu">
-                <a style="color:#F05D5E;font-weight:bold">Projects</a>
-                <a href="about.html">About</a>
-                <a>Resume</a>
-        </div>
-    </div>
-        <div class="landing-content">
+            <div class="logo">
+                    <img src="images/logo.png" alt="Ruby Lyon">
+            </div>
+            <nav>
+                    <a class="current">Projects</a>
+                    <a href="about.html">About</a>
+                    <a>Resume</a>
+            </nav>
+            </div>
+
+    </header>
+
+    <!--- Home Hero --------------->
+
+    <section class="home-hero">
+        <div>
             <img class="logo2" src="images/logo2.png" alt="Ruby Lyon">
-            <div class="landing-text">
-            <h1>NYC-based UX/UI designer <span class="text-2">creating joyful & accessible design</span></h1>
-            </div>
+            <h1><span class="orange-d">NYC-based UX/UI designer</span> creating joyful & accessible design</h1>
         </div>
     </section>
-</header>
-    <section class="case-studies">
-        <h2>Work Work Work*</h2>
-        <p>*case studies</p>
-        <div>
-            <div class="winenotes-l">
-                <h5>Ecommerce</h5>
-                <h2>Wine Notes</h2>
-                <p>A new information architecture for buying wine, based on flavor and scent. Ecommerce meets the idea of food in the form of wine.</p>
-                <a href="file:///Users/rubyanalyon/Dropbox/portfolio/wine-notes.html" class="btn-outline">Uncork Case Study</a>
+
+<!--- Case Studies --------------->
+<section class="case-studies bg-orange-l">
+    <div class="cs-header">
+    <h2>Work Work Work*</h2>
+    <p>*case studies</p>
+    </div>
+<!--- Wine Notes --------------->
+<div class="cs-winenotes">
+        <div class="case-study-l">
+            <h5>Ecommerce</h5>
+            <h2>Wine Notes</h2>
+            <p>A new information architecture for buying wine, based on flavor and scent. Ecommerce meets the idea of food in the form of wine.</p>
+            <div class="btn">
+            <a href="wine-notes.html" class="btn-outline">Uncork Case Study</a>
             </div>
-            <div class="winenotes-r">
+        </div>
+        <div class="case-study-r">
                 <img src="images/winenotes.png" alt="wine notes">
-            </div class="winenotes-r">
+        </div>
+</div>
+<!--- Fetch --------------->
+<div class="bg-blue-l">
+    <div class="cs-fetch">
+        <div class="case-study-l">
+                <img src="images/fetch.png" alt="Fetch">
+        </div>
+        <div class="case-study-r">
+            <h5>Mobile App</h5>
+            <h2 class="white">Fetch</h2>
+            <p>Innovative pet management app that tracks health, wellness, and care. Think FitBit meets Apple Health.</p>
+            <div class="btn">
+            <a href="" class="btn-outline">Unleash case Study</a>
+        </div>
         </div>
     </div>
-        <div>
-            <h3>Mobile App</h3>
-            <h2>Fetch</h2>
-            <p>Innovative pet management app that tracks health, wellness, and care. Think FitBit meets Apple Health.</p>
-            <a class="btn-outline">Unleash case study</a>
-            <img src="images/fetch.png" alt="Fetch">
-        </div>
-        <div>
-            <h2>A Girl Named Ruby</h2>
+</div>
+<!--- Ruby Bio --------------->
+<div class="bg-white">
+    <div class="cs-ruby">
+        <div class="case-study-l2">
             <img src="images/ruby.png" alt="ruby">
+        </div>
+    <div class="case-study-r">
+            <h2>A Girl Named Ruby</h2>
             <p>Across all of my professional experiences, UX design has been in everything - in designing promotional materials and content, in problem solving with people with complex issues through AmeriCorps, to understanding consumers through market research in my current role as a marketing manager.</p>
-            <a class="btn-outline">Why I became a designer</a>
+            <div class="btn">
+            <a class="btn-outline" href="about.html">Why I became a designer</a>
         </div>
-    </section>
+        </div>
+    </div>
+</div>
+</section>
 </body>
-<footer>
-    <section>
-        <h2>Onwards & Upwards</h2>
-        <p>Let’s make something awesome together (coffee optional but improves experience)</p>
-        <h2>Get in touch</h2>
-        <a href="mailto:ruby@lyondesign.io">ruby@lyondesign.io</a>
+<!--- Footer --------------->
+<footer class="bg-blue-d">
+    <section class="footer1">
+        <div class="contact">
+        <h2 class="orange-l">Onwards & Upwards</h2>
+        <p class="orange-l">Let’s make something awesome together <br>(coffee optional but improves experience)</p>
         <div>
-            <div></div>
-            <a>Back to top</a>
+        <h5 class="orange-l">Get in touch</h5>
+        </div>
+        <div>
+        <a class="white" href="mailto:ruby@lyondesign.io">ruby@lyondesign.io</a>
+        </div>
+        <div class="return-top">
+            <a class="icon ion-md-arrow-up"></a>
+            <a class="blue-l">Back to top</a>
+        </div>
         </div>
     </section>
-    <p>© 2019 | Designed and developed by Ruby Lyon</p>
-    <div class="contact-icons">
-        <i class="icon ion-logo-twitter"></i>
-        <i class="icon ion-logo-linkedin"></i>
-        <i class="icon ion-logo-github"></i>
+    <div class="footer2">
+    <p class="orange-l">© 2019 | designed and developed by Ruby Lyon</p>
+    <div class="contact-icons orange-l">
+        <a class="icon ion-logo-twitter"></a>
+        <a class="icon ion-logo-linkedin"></a>
+        <a class="icon ion-logo-github"></a>
+    </div>
+    </div>
 </footer>

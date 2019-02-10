@@ -1,19 +1,18 @@
-/* ------------------- global ------------------------- */
 html {
-    height: 100%;
-    font-size: 100%;
+  box-sizing: border-box;
 }
 
-.logo{
-    max-height: 80px;
-    padding: 20px;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-.logo2{
-max-height: 80px;
-display: block;
-margin-left: auto;
-margin-right: auto;
+img {
+    max-width: 100%;
+    height:auto;
+}
+
+html {
+    font-size: 10px;
 }
 
 body{
@@ -22,14 +21,10 @@ body{
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color: var(--dark-blue);
-}
-
 h1, h2, h3 {
     font-family: Frank-Ruhl-Libre, serf;
     color: var(--dark-blue);
+    font-style: normal;
 }
 
 h1{
@@ -37,10 +32,9 @@ h1{
     font-style: normal;
     font-weight: 900;
     line-height: 52px;
-    font-size: 44px;
+    font-size: 4.4rem;
     text-align: center;
     letter-spacing: 1px;
-    color: #F05D5E;
 }
 
 h2{
@@ -69,63 +63,278 @@ font-style: normal;
 font-weight: 300;
 line-height: 24px;
 font-size: 18px;
-letter-spacing: 4px;
 text-transform: uppercase;
+font-weight: bold;
+letter-spacing: 3.55556px;
 }
 
-/*<-------------------- Landing ----------------------->*/
-
-.landing{
-    position: relative; /* positioning will be explained in a resource */
-    min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
-    background-image: url('../../images/dots.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+media all and (min-wdith:800px){
+    h1{
+        font-size: 5.2rem;
+    }
 }
 
-.nav-menu{
-    display:flex;
-    width: 250px;
-    justify-content: space-around;
-    padding: 20px;
+p {
+    font-size: 1.8rem;
 }
 
-.navbar{
-    display:flex;
+a{
+    color: var(--blue);
+    text-decoration: none;
+}
+
+/*<-------------------- Menu ----------------------->*/
+header {
+    display: flex;
     justify-content: space-between;
+    padding: 3rem;
+    align-items: center;
 }
 
-.landing-content{
-    width: 50%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
+.logo{
+    max-width: 4rem;
+}
+
+header nav{
+    font-size: 1.6rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    margin-left: 1rem;
+}
+
+header nav a:nth-of-type(1){
+    margin-left: 0;
+}
+
+.current {
+    color: var(--dark-orange);
+    font-weight: bold;
+}
+
+/*<-------------------- Home Hero ----------------------->*/
+.home-hero{
+    display: flex;
+    min-height: 100vh;
+    margin-top: -102px;
+    padding: 3rem;
+}
+
+.home-hero div{
+    text-align:center;
+    margin:auto;
+}
+
+.logo2{
+    max-width: 8rem;
+}
+
+.home-hero h1{
+    max-width: 750px;
+    margin: 60px 0 0 0;
+}
+
+/*<-------------------- Case Study Header ----------------------->*/
+.cs-header{
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cs-header p{
+    margin-top: -20px;
+}
+
+/*<-------------------- Wine Notes ----------------------->*/
+
+.cs-winenotes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    max-width: 95rem;
     margin-right: auto;
-    min-width: 350px;
+    margin-left: auto;
+    align-items: center;
+    margin-bottom: -.2rem;
+    padding: 3rem;
 }
 
-.text-2{
+.cs-winenotes a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+
+}
+
+.cs-winenotes .btn-outline{
+  border: 3px solid var(--dark-blue);
+  border-radius: 40px;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.btn{
+    padding-top: 5rem;
+}
+
+/*<-------------------- Fetch ----------------------->*/
+.cs-fetch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    max-width: 95rem;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.case-study-l img{
+    max-width: 20.5rem;
+}
+
+.case-study-r{
+    margin-right: 3rem;
+    color: var(--white);
+}
+
+.cs-fetch .btn-outline{
+  border: 3px solid var(--white);
+  border-radius: 40px;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.cs-fetch a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+}
+
+.btn{
+    padding-top: 5rem;
+}
+
+/*<-------------------- Ruby Bio ----------------------->*/
+
+.cs-ruby {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    max-width: 98rem;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.cs-ruby .case-study-r{
     color: var(--dark-blue);
 }
 
+.case-study-l2 img{
+    max-width: 45rem;
+    padding-right: 4rem;
+}
+
+.cs-ruby .btn-outline{
+    border: 3px solid var(--dark-blue);
+    border-radius: 40px;
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+
+}
+
+.cs-ruby a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+
+}
+
+/*<-------------------- Footer ----------------------->*/
+footer{
+    padding-top: 7rem;
+}
+.contact{
+    text-align: center;
+}
+
+.footer1 p{
+    line-height: 3.1rem;
+    font-size: 2.2rem;
+    padding-bottom: 5rem;
+}
+
+.footer1 a{
+    font-size: 1.8rem;
+}
+
+.return-top{
+    padding-top: 8rem;
+    padding-bottom: 15rem;
+    color: var(--blue);
+    font-size: 1.8rem;
+    display: grid;
+    grid-column: 1 fr;
+}
+
+.icon.ion-md-arrow-up{
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.contact-icons a{
+    color: var(--light-orange);
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+.contact-icons a:nth-of-type(1){
+    margin-left: 0;
+}
+
 /*<--------------------- Colors ------------------------>*/
-:root{
-    --light-orange:#F7B18F;
-}
-:root{
-    --dark-blue:#0B0033;
-}
-:root{
-    --dark-orange:#F05D5E;
-}
-:root{
-    --blue:#5386E4;
-}
-:root{
-    --white:#FFFFFF;
-}
-:root{
-    --orange-yellow-gradient:(#F05D5E 0.66%, #F7BA8F 62.4%);
-}
+.orange-l {color: var(--light-orange);}
+.orange-d {color: var(--dark-orange);}
+.blue-l {color: var(--blue);}
+.blue-d {color: var(--dark-blue);}
+.white {color: var(--white);}
+
+.bg-orange-d {background-color: var(--dark-orange);}
+.bg-orange-l {background-color: var(--light-orange);}
+.bg-blue-l {background-color: var(--blue);}
+.bg-blue-d {background-color: var(--dark-blue);}
+.bg-white {background-color: var(--white);}
+
+:root{--light-orange:#F7B18F;}
+:root{--dark-blue:#0B0033;}
+:root{--dark-orange:#F05D5E;}
+:root{--blue:#5386E4;}
+:root{--white:#FFFFFF;}
+:root{--gradient:(#F05D5E 0.66%, #F7BA8F 62.4%;}
