@@ -1,0 +1,130 @@
+/* ------------------- global ------------------------- */
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+.logo{
+    max-height: 80px;
+    padding: 20px;
+}
+
+.logo2{
+max-height: 80px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family: Frank-Ruhl-Libre, serf;
+    color: var(--dark-blue);
+}
+
+h1{
+    font-family: Frank Ruhl Libre Black;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 52px;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #F05D5E;
+}
+
+h2{
+    font-family: Frank Ruhl Libre Black;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 49px;
+    font-size: 36px;
+}
+
+h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 3.55556px;
+    text-transform: uppercase;
+    color: #0B0033;
+}
+
+h5{
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+line-height: 24px;
+font-size: 18px;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+
+/*<-------------------- Landing ----------------------->*/
+
+.landing{
+    position: relative; /* positioning will be explained in a resource */
+    min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
+    background-image: url('../../images/dots.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav-menu{
+    display:flex;
+    width: 250px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.landing-content{
+    width: 50%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+}
+
+.text-2{
+    color: var(--dark-blue);
+}
+
+/*<--------------------- Colors ------------------------>*/
+:root{
+    --light-orange:#F7B18F;
+}
+:root{
+    --dark-blue:#0B0033;
+}
+:root{
+    --dark-orange:#F05D5E
+}
+:root{
+    --blue:#5386E4;
+}
+:root{
+    --white:#FFFFFF;
+}
+:root{
+    --orange-yellow-gradient:(#F05D5E 0.66%, #F7BA8F 62.4%);
+}
