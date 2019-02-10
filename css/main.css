@@ -24,6 +24,7 @@ body{
 
 a{
     text-decoration: none;
+    color: var(--dark-blue);
 }
 
 h1, h2, h3 {
@@ -117,7 +118,7 @@ text-transform: uppercase;
     --dark-blue:#0B0033;
 }
 :root{
-    --dark-orange:#F05D5E
+    --dark-orange:#F05D5E;
 }
 :root{
     --blue:#5386E4;
