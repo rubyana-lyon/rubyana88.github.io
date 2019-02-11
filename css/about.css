@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -15,15 +16,7 @@ html {
     font-size: 10px;
 }
 
-h2{
-    margin: auto;
-    width: 50%;
-}
-
 p, h6, a{
-    max-width: 60rem;
-    margin: auto;
-    width: 50%;
     line-height: 2.2rem;
 }
 
@@ -32,6 +25,20 @@ h6{
 }
 
 /* -------------- Home Hero ------------- */
+
+.statement{
+    margin: auto;
+    width: 50%;
+    max-width: 60rem;
+}
+
+.home-hero{
+    background-image: url('../images/dots.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 .about-picture{
     max-width: 70rem;
@@ -92,10 +99,32 @@ body p{
 /*<-------------------- work ethos ----------------------->*/
 .work-ethos{
 display: grid;
-grid-column: 2fr;
+grid-template-columns: 1fr 1fr;
+margin: auto;
+max-width: 50rem;
+grid-gap: 5rem;
 }
 
 .work-ethos p{
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    width: 23rem;
+    height: 23rem;
+    font-size: 2.4rem;
+    line-height: 4rem;
+}
+
+.quote-d{
+    background: var(--dark-blue);
+    color: var(--light-orange);
+}
+
+.quote-l{
+    background: linear-gradient(to right,#F05D5E,#F7BA8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    font-weight: 700;
     border: 3px solid var(--light-orange);
-    max-width: 20rem;
 }
