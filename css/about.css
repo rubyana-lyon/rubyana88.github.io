@@ -15,6 +15,24 @@ html {
     font-size: 10px;
 }
 
+h2{
+    margin: auto;
+    width: 50%;
+}
+
+p, h6, a{
+    max-width: 60rem;
+    margin: auto;
+    width: 50%;
+    line-height: 2.2rem;
+}
+
+h6{
+    line-height: 2.4rem;
+}
+
+/* -------------- Home Hero ------------- */
+
 .about-picture{
     max-width: 70rem;
     margin: auto;
@@ -22,20 +40,62 @@ html {
 }
 
 .landing-text h1{
-        max-width: 600px;
+        max-width: 550px;
         margin: 60px 0 0 0;
         margin: auto;
         width: 50%;
-        padding: 3rem;
+        padding-top: 6rem;
+        padding-bottom: 10rem;
 }
 
-h2{
-    margin: auto;
-    width: 50%;
+/* -------------- Story ------------- */
+
+body h2{
+    text-align: center;
 }
 
-p{
-    max-width: 60rem;
+body h6{
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+body p{
+    font-size: 1.6rem;
+    padding-bottom: 7rem;
+}
+
+.btn{
     margin: auto;
     width: 50%;
+    padding-bottom: 16rem;
+    padding-top: 5rem;
+}
+
+.btn-outline{
+  border: 3px solid var(--blue);
+  border-radius: 40px;
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin: 2rem;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+}
+
+/*<-------------------- work ethos ----------------------->*/
+.work-ethos{
+display: grid;
+grid-column: 2fr;
+}
+
+.work-ethos p{
+    border: 3px solid var(--light-orange);
+    max-width: 20rem;
 }

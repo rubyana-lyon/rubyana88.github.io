@@ -68,6 +68,13 @@ font-weight: bold;
 letter-spacing: 3.55556px;
 }
 
+h6{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--dark-orange);
+}
+
 media all and (min-wdith:800px){
     h1{
         font-size: 5.2rem;
@@ -96,7 +103,7 @@ header {
 }
 
 header nav{
-    font-size: 1.4rem;
+    font-size: 1.rem;
 }
 
 header nav a{
@@ -128,6 +135,7 @@ footer{
     line-height: 3.1rem;
     font-size: 2.2rem;
     padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 .footer1 a{
@@ -135,7 +143,7 @@ footer{
 }
 
 .return-top{
-    padding-top: 8rem;
+    padding-top: 13rem;
     padding-bottom: 10rem;
     color: var(--blue);
     font-size: 1.8rem;
