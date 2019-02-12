@@ -49,12 +49,10 @@ h4{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    line-height: 22px;
-    font-size: 18px;
-    text-align: center;
+    line-height: 2.2rem;
+    font-size: 1.6rem;
     letter-spacing: 3.55556px;
     text-transform: uppercase;
-    color: #0B0033;
 }
 
 h5{
@@ -82,7 +80,8 @@ media all and (min-wdith:800px){
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 a{

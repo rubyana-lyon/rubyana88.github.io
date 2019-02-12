@@ -71,30 +71,29 @@ body p{
     padding-bottom: 7rem;
 }
 
-.btn{
-    margin: auto;
-    width: 50%;
-    padding-bottom: 16rem;
-    padding-top: 5rem;
+.contact-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
 }
 
 .btn-outline{
   border: 3px solid var(--blue);
   border-radius: 40px;
   padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  margin: 2rem;
+  font-size: 1.4rem;
+  color: var(--dark-blue);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3.55556px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
 }
 
-.btn a{
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: var(--blue);
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3.55556px;
-}
+
 
 /*<-------------------- work ethos ----------------------->*/
 .work-ethos{
