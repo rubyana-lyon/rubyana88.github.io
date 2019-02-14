@@ -7,4 +7,4 @@ I’m Ruby, an NYC-based product designer specializing in UI and UX design. I lo
 
 Welcome to my portfolio––pleae explore around and learn more about my projects and interests! 
 
-![Screenshot](Screen Shot 2019-02-13 at 8.56.21 PM.png)
+![Screenshot](portfolio.png)
