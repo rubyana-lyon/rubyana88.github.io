@@ -130,6 +130,10 @@
     color: var(--white);
 }
 
+.cs-fetch .case-study-r img{
+    max-width: 30rem;
+}
+
 
 /*<-------------------- Ruby Bio ----------------------->*/
 
@@ -146,3 +150,5 @@
 .cs-ruby a{
     color: var(--dark-blue);
 }
+
+/*<-------------------- Footer ----------------------->*/

@@ -142,8 +142,22 @@ footer{
     font-weight: 700;
 }
 
-.footer1 a{
+.email{
     font-size: 1.8rem;
+}
+
+.contact-icons{
+    padding-top: 4rem;
+}
+
+.contact-icons a{
+    color: var(--white);
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.contact-icons a:nth-of-type(1){
+    margin-left: 0;
 }
 
 .return-top{
@@ -164,15 +178,6 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-}
-
-.contact-icons a{
-    color: var(--light-orange);
-    font-size: 2.5rem;
-    margin-left: 3rem;
-}
-.contact-icons a:nth-of-type(1){
-    margin-left: 0;
 }
 
 /*<--------------------- Colors ------------------------>*/
