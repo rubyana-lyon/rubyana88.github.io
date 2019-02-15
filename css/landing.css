@@ -36,31 +36,45 @@
     margin-top: -20px;
 }
 
-/*<-------------------- Wine Notes ----------------------->*/
-
-.cs-winenotes {
+/*<-------------------- Global Case Studies ----------------------->*/
+.cs-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-gap: 10rem;
     max-width: 95rem;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    margin-bottom: -.2rem;
     padding: 3rem;
 }
 
-.cs-winenotes a{
+.caser-study-l h2 {
+    margin: 0 0 1rem 0;
+}
+.caser-study-l h5 {
+    margin: 0 0 1rem 0;
+}
+.caser-study-l p {
+    margin: 0 0 1rem 0;
+}
+
+.case-study-l img{
+    max-width: 20.5rem;
+}
+
+.caser-study-l a{
     text-decoration: none;
     font-size: 1.6rem;
-    color: var(--dark-blue);
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3.55556px;
-
 }
 
-.cs-winenotes .btn-outline{
+.btn{
+    padding-top: 5rem;
+}
+
+.btn-outline{
   border: 3px solid var(--dark-blue);
   border-radius: 40px;
   padding: 1rem;
@@ -68,54 +82,27 @@
   padding-right: 5rem;
 }
 
-.btn{
-    padding-top: 5rem;
+/*<-------------------- Wine Notes ----------------------->*/
+
+.cs-winenotes {
+    margin-bottom: -.2rem;
+}
+
+.cs-winenotes a{
+    color: var(--dark-blue);
 }
 
 /*<-------------------- Fetch ----------------------->*/
-.cs-fetch {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
-    max-width: 95rem;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    padding-top: 18rem;
-    padding-bottom: 18rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-
-.case-study-l img{
-    max-width: 20.5rem;
-}
-
-.case-study-r{
-    margin-right: 3rem;
-    color: var(--white);
-}
+.cs-fetch {}
 
 .cs-fetch .btn-outline{
-  border: 3px solid var(--white);
-  border-radius: 40px;
-  padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  border-color: var(--white);
 }
 
 .cs-fetch a{
-    text-decoration: none;
-    font-size: 1.6rem;
     color: var(--white);
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 3.55556px;
 }
 
-.btn{
-    padding-top: 5rem;
-}
 
 /*<-------------------- Ruby Bio ----------------------->*/
 
