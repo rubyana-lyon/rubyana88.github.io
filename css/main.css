@@ -15,34 +15,31 @@ html {
     font-size: 10px;
 }
 
-body{
-    font-family: Poppins, sans-serif;
-    color: var(--dark-blue);
-    text-decoration: none;
-}
-
-h1, h2, h3 {
-    font-family: Frank-Ruhl-Libre, serf;
-    color: var(--dark-blue);
-    font-style: normal;
-}
-
 h1{
-    font-family: Frank Ruhl Libre Black;
+    font-family: Frank Ruhl Libre Black, serif;
     font-style: normal;
     font-weight: 900;
-    line-height: 52px;
+    line-height: 5.2rem;
     font-size: 4.4rem;
     text-align: center;
     letter-spacing: 1px;
 }
 
 h2{
-    font-family: Frank Ruhl Libre Black;
+    font-family: Frank Ruhl Libre Black, serif;
     font-style: normal;
     font-weight: 900;
-    line-height: 49px;
-    font-size: 36px;
+    line-height: 4.9rem;
+    font-size: 3.6rem;
+}
+
+h3 {
+    font-family: Frank-Ruhl-Libre, serif;
+    color: var(--dark-blue);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.4rem;
+    font-size: 2rem;
 }
 
 h4{
@@ -67,8 +64,14 @@ letter-spacing: 3.55556px;
 h6{
     font-family: Poppins;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--dark-orange);
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    color: var(--dark-blue);
+    text-decoration: none;
 }
 
 media all and (min-wdith:800px){

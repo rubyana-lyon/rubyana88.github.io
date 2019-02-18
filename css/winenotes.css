@@ -103,19 +103,34 @@ line-height: 24px;
 .my-role{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 15rem;
+    padding: 0rem 15rem;
     align-items: center;
     text-align: center;
+}
+
+.role-l{
+    grid-column: 1/2;
+}
+
+.role-m{
+    grid-column: 2/3;
+}
+
+.role-r{
+    grid-column: 3/4;
 }
 
 
 /* -------- Overview -------*/
 
-
 .layout{
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 2rem;
+    grid-template-columns: 1fr 1fr 4fr;
+    padding: 0rem 6rem;
+}
+
+.content-r{
+    grid-column: 3/4;
 }
 
 /* -------- Divider -------*/
