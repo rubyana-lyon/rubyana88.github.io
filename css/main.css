@@ -59,10 +59,8 @@ h5{
 font-family: Poppins;
 font-style: normal;
 font-weight: 300;
-line-height: 24px;
-font-size: 18px;
+font-size: 1.8rem;
 text-transform: uppercase;
-font-weight: bold;
 letter-spacing: 3.55556px;
 }
 
@@ -133,8 +131,7 @@ footer{
 .footer1 p{
     line-height: 3.1rem;
     font-size: 2.2rem;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
+    padding-bottom: 2rem;
     background: linear-gradient(to right,#F7BA8F,#CC7C92);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -161,25 +158,56 @@ footer{
 }
 
 .return-top{
-    padding-top: 10rem;
+    padding-top: 6rem;
     padding-bottom: 10rem;
-    color: var(--blue);
     font-size: 1.8rem;
     display: grid;
     grid-column: 1 fr;
 }
 
+.return-top a{
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .icon.ion-md-arrow-up{
     font-size: 3rem;
     padding: 1rem;
+    color: var(--blue);
+    font-weight: bold;
 }
 
 .footer2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
 }
 
+.contact-icons{
+    text-align: right;
+    padding-top: 0;
+    color: var(--light-orange)
+}
+
+.contact-icons a{
+    color: var(--light-orange)
+}
+
+@media all and (max-width:700px){
+    .footer2{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer2 p{
+        font-size: 1.4rem;
+    }
+
+    .contact-icons {
+        text-align: center;
+    }
+}
 /*<--------------------- Colors ------------------------>*/
 .orange-l {color: var(--light-orange);}
 .orange-d {color: var(--dark-orange);}
