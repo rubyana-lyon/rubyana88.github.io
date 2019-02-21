@@ -211,6 +211,7 @@ footer{
         text-align: center;
     }
 }
+
 /*<--------------------- Colors ------------------------>*/
 .orange-l {color: var(--light-orange);}
 .orange-d {color: var(--dark-orange);}

@@ -79,22 +79,43 @@ body p{
 /*<-------------------- work ethos ----------------------->*/
 .work-ethos{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 margin: auto;
-max-width: 50rem;
 grid-gap: 4rem;
+padding-bottom: 8rem;
+max-width: 50%;
 }
 
 .work-ethos p{
-    padding: 2rem;
     text-align: center;
     border-radius: 8px;
-    width: 23rem;
-    height: 23rem;
+    width: 25rem;
+    height: 25rem;
     font-size: 2.4rem;
     line-height: 4rem;
-    margin: 0rem;
-    padding-bottom: 6rem;
+    margin:auto;
+    padding: 3rem;
+}
+
+.quote1{
+    grid-column: 2/3;
+    grid-row: 1/2
+
+}
+
+.quote2{
+    grid-column: 3/4;
+    grid-row: 1/2
+}
+
+.quote3{
+    grid-column: 2/3;
+    grid-row:2/3
+}
+
+.quote4{
+    grid-column: 3/4;
+    grid-row:2/3
 }
 
 .quote-d{
@@ -110,7 +131,6 @@ grid-gap: 4rem;
     font-weight: 700;
     border: 3px solid var(--light-orange);
 }
-
 
 .btn{
     display: grid;
@@ -137,4 +157,18 @@ grid-gap: 4rem;
     color: var(--dark-blue);
     text-align: center;
     padding: 1rem;
+    margin: 1rem 0 8rem 0;
     }
+
+.btn-outline:hover{
+    border-color: var(--dark-blue);
+    background-position: right center;
+    background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+.btn-outline a:hover{
+    color: var(--dark-blue);
+}

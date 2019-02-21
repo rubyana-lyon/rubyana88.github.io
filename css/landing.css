@@ -152,4 +152,14 @@
     color: var(--dark-blue);
 }
 
+
+.btn:hover{
+    background-position: right center;
+    background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
 /*<-------------------- Footer ----------------------->*/
