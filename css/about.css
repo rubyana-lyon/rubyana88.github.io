@@ -160,15 +160,11 @@ max-width: 50%;
     margin: 1rem 0 8rem 0;
     }
 
-.btn-outline:hover{
-    border-color: var(--dark-blue);
-    background-position: right center;
-    background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
-}
-
-.btn-outline a:hover{
-    color: var(--dark-blue);
-}
+    .btn:hover{
+        background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
+        color: #fff;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        border-radius: 40px;
+        border: 3px solid var(--white);
+    }

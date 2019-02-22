@@ -21,6 +21,15 @@ h4{
 }
 
 /* -------- Hero -------*/
+.hero{
+    position: relative;
+}
+
+.lemon{
+    position: absolute;
+    left: -80px;
+}
+
 .hero-wrapper{
     background: #bbd0f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -29,34 +38,28 @@ h4{
 .hero-logo {
     max-width: 15rem;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
+    padding: 4rem 0;
 }
 
 .hero p {
     max-width: 65rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
     text-align: center;
     line-height: 24px;
+    padding-bottom: 8rem;
 }
 
 .grapefruit {
-    display: block;
-    margin-left: auto;
-    width: 50%;
-    max-width: 25rem;
+    position: absolute;
+    right: -80px;
 }
 
 .hero-winenotes {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
     max-width: 88rem;
+    padding-bottom: -5rem;
 }
 
 /* -------- Case Study Nav Bar -------*/
@@ -76,10 +79,9 @@ h4{
 .meet-wn{
 max-width: 65rem;
 display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
+margin: 0 auto;
 line-height: 24px;
+padding-top: 6rem;
 }
 
 .btn{
@@ -95,8 +97,7 @@ line-height: 24px;
     padding: 1rem;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 10rem auto;
     width: 35%;
 }
 
@@ -122,6 +123,16 @@ line-height: 24px;
 
 /* -------- Overview -------*/
 
+.meet-wn img{
+    position: absolute;
+    left: 4rem;
+    max-width: 15rem;
+}
+
+.meet-wn p{
+    padding-bottom: 4rem;
+}
+
 .layout{
     display: grid;
     grid-template-columns: 1fr 1fr 4fr;
@@ -144,4 +155,16 @@ line-height: 24px;
     grid-gap: 5rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(30deg);
+}
+
+
+
+
+.btn:hover{
+    background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 3px solid var(--white);
 }
