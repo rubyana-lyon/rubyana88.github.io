@@ -5,6 +5,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  outline: green 3px solid;
 }
 
 img {
@@ -28,8 +29,7 @@ h6{
 
 .statement{
     margin: auto;
-    max-width: 80rem;
-    padding: 1rem 6rem;
+    max-width: 85%;
 }
 
 .home-hero{
@@ -44,9 +44,7 @@ h6{
 }
 
 .landing-text h1{
-        max-width: 55rem;
-        margin: auto;
-        padding-top: 4rem;
+        padding: 4rem 1rem 0 2rem;
 }
 
 /* -------------- Story ------------- */
