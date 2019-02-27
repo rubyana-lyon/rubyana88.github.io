@@ -47,15 +47,13 @@ h6{
         max-width: 55rem;
         margin: auto;
         padding-top: 4rem;
-        padding-bottom: 6rem;
 }
 
 /* -------------- Story ------------- */
 
 body h2{
     text-align: center;
-    padding-bottom: 0rem;
-    padding-top: 0rem;
+    padding-top: 4rem;
 }
 
 body h6{
@@ -65,25 +63,42 @@ body h6{
 
 body p{
     font-size: 1.6rem;
-    padding-top: 0rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .btn{
     display: block;
-    padding: 1rem 2rem;
     text-align: center;
+    transition: .5s all;
+    padding: 80%vw;
 }
 
 
 /*<-------------------- work ethos ----------------------->*/
 .work-ethos{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr;
 margin: auto;
-grid-gap: 4rem;
+grid-gap: 2rem;
 padding-bottom: 8rem;
-max-width: 50%;
+max-width: 610px;
+align-items: center;
+}
+
+@media all and (min-width:35rem){
+    .work-ethos{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+    .btn-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+        padding: 0rem 2rem;
+        max-width: 80vw;
+        transition: .5s all;
+        margin: 0 auto;
+    }
 }
 
 .work-ethos p{
@@ -95,9 +110,11 @@ max-width: 50%;
     line-height: 4rem;
     margin:auto;
     padding: 3rem;
+    align-content: center;
+    display:grid;
 }
 
-.quote1{
+/*.quote1{
     grid-column: 2/3;
     grid-row: 1/2
 
@@ -116,7 +133,7 @@ max-width: 50%;
 .quote4{
     grid-column: 3/4;
     grid-row:2/3
-}
+}*/
 
 .quote-d{
     background: var(--dark-blue);
@@ -131,20 +148,21 @@ max-width: 50%;
     font-weight: 700;
     border: 3px solid var(--light-orange);
 }
-
-.btn{
+=
+.btn-wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-gap: 4rem;
-    padding: 0rem 3rem;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    transition: .5s all;
+    max-width: 80vw;
 }
 
-.btn1{
+/*.btn1{
     grid-column: 2/3;
 }
 .btn2{
     grid-column: 3/4;
-}
+}*/
 
 .btn-outline{
     border: 3px solid var(--blue);
@@ -157,14 +175,20 @@ max-width: 50%;
     color: var(--dark-blue);
     text-align: center;
     padding: 1rem;
-    margin: 1rem 0 8rem 0;
+    margin: 0 0 4rem 0;
     }
 
     .btn:hover{
-        background-image: linear-gradient(to right, #F7B18F 0%, #F05D5E 51%, #F7B18F 100%);
+        background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
         color: #fff;
         -webkit-border-radius: 40px;
         -moz-border-radius: 40px;
         border-radius: 40px;
-        border: 3px solid var(--white);
+        border: 3px solid var(--dark-blue);
+        transition: .5s all;
+    }
+
+    .btn:hover a{
+        color: var(--white);
+        transition: .5s all;
     }
