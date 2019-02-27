@@ -19,7 +19,7 @@ h1{
     font-family: Frank Ruhl Libre Black, serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 4.4rem;
+    font-size: calc(1rem + 5vmin);
     text-align: center;
     letter-spacing: 1px;
 }
