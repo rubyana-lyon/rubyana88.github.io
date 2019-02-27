@@ -1,7 +1,7 @@
 /*<-------------------- Home Hero ----------------------->*/
 .home-hero{
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     margin-top: -102px;
     padding: 3rem;
     background-image: url('../images/dots.png');
@@ -22,8 +22,13 @@
 }
 
 .home-hero h1{
-    max-width: 75.3rem;
-    margin: 60px 0 0 0;
+}
+
+@media all and (min-width:700px){
+    .home-hero h1{
+        max-width: 75.3rem;
+        margin: 60px 0 0 0;
+    }
 }
 
 /*<-------------------- Case Study Header ----------------------->*/

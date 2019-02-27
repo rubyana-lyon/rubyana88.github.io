@@ -5,7 +5,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  outline: green 3px solid;
 }
 
 img {
@@ -32,6 +31,12 @@ h6{
     max-width: 85%;
 }
 
+@media all and (min-width:800px){
+.statement{
+    max-width: 55%;
+}
+}
+
 .home-hero{
     background-repeat: no-repeat;
     background-size: contain;
@@ -41,6 +46,11 @@ h6{
 
 .about-picture{
     margin: auto;
+}
+
+.landing-text{
+margin: 0 auto;
+max-width: 60rem;
 }
 
 .landing-text h1{
@@ -68,7 +78,7 @@ body p{
     display: block;
     text-align: center;
     transition: .5s all;
-    padding: 80%vw;
+    padding: 80%vh;
 }
 
 

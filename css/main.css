@@ -28,8 +28,7 @@ h2{
     font-family: Frank Ruhl Libre Black, serif;
     font-style: normal;
     font-weight: 900;
-    line-height: 4.9rem;
-    font-size: 3.6rem;
+    font-size: calc(.5rem + 4vmin);
 }
 
 h3 {
@@ -140,6 +139,14 @@ footer{
     -webkit-box-decoration-break: clone;
     font-weight: 700;
 }
+
+@media all (min-width 700px){
+    .contact p{
+        max-width: 57rem;
+        margin: 0 auto;
+    }
+}
+
 
 .email{
     font-size: 1.8rem;
