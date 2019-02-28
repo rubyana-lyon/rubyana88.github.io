@@ -56,6 +56,7 @@ h4{
 .grapefruit {
     position: absolute;
     right: -80px;
+    max-width: 32vw;
 }
 
 .hero-winenotes {
@@ -237,7 +238,11 @@ h4{
     transform: rotate(30deg);
 }
 
-
+/*<-------------------- Discovery Phase ----------------------->*/
+.portfolio-link{
+    color:var(--blue);
+    font-weight: bold;
+}
 
 .btn:hover{
     background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);

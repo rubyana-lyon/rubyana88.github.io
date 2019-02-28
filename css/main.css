@@ -64,6 +64,8 @@ h6{
     font-weight: bold;
     font-size: 1.6rem;
     color: var(--dark-orange);
+    line-height: 2.3rem;
+    margin:0;
 }
 
 body{
@@ -78,7 +80,7 @@ media all and (min-wdith:800px){
     }
 }
 
-p {
+p,ul {
     font-size: 1.6rem;
     line-height: 2.4rem;
 }
