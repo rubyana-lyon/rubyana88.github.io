@@ -112,18 +112,24 @@ align-items: center;
 }
 
 .quote-l{
-    background: linear-gradient(to right,#F05D5E,#F7BA8F);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-box-decoration-break: clone;
+    color: var(--dark-blue);
+    background: linear-gradient(to right,#F05D5E 5%,#F7BA8F);
     font-weight: 700;
-    border: 3px solid var(--light-orange);
 }
 
 @media all and (min-width:50rem){
     .work-ethos{
         grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;
+    }
+
+    .quote-l{
+        background: linear-gradient(to right,#F05D5E,#F7BA8F);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-box-decoration-break: clone;
+        font-weight: 700;
+        border: 3px solid var(--light-orange);
     }
 }
 
