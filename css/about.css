@@ -149,10 +149,8 @@ align-items: center;
 }
 
 .quote-l{
-    background: linear-gradient(to right,#F05D5E,#F7BA8F);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-box-decoration-break: clone;
+    background: var(--dark-blue);
+    color: var(--light-orange);
     font-weight: 700;
     border: 3px solid var(--light-orange);
 }
