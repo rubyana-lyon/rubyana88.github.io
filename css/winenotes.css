@@ -72,7 +72,7 @@ h4{
     z-index: 2;
 }
 
-@media all and (min-width:800px){
+@media all and (min-width:900px){
     .lemon{
     left: -116px;
     top: 3rem;
@@ -101,7 +101,7 @@ h4{
     font-size: 1.6rem;
 }
 
-@media all and (min-width:800px){
+@media all and (min-width:900px){
     .nav-bar-wrapper{
         display: flex;
         justify-content: space-between;
@@ -131,7 +131,7 @@ h4{
     padding-bottom: 4rem;
 }
 
-@media all and (min-width:800px){
+@media all and (min-width:900px){
     .meet-wn{
     max-width: 65rem;
     display: block;
@@ -236,8 +236,9 @@ h4{
 }
 
 .wine-divider img{
+    width: 25vw;
+    height: auto;
     margin: auto;
-    max-width: 30rem;
     grid-gap: 5rem;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(30deg);
