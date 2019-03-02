@@ -72,7 +72,7 @@ h4{
     z-index: 2;
 }
 
-@media all and (min-width:700px){
+@media all and (min-width:800px){
     .lemon{
     left: -116px;
     top: 3rem;
@@ -101,7 +101,7 @@ h4{
     font-size: 1.6rem;
 }
 
-@media all and (min-width:700px){
+@media all and (min-width:800px){
     .nav-bar-wrapper{
         display: flex;
         justify-content: space-between;
@@ -131,7 +131,7 @@ h4{
     padding-bottom: 4rem;
 }
 
-@media all and (min-width:700px){
+@media all and (min-width:800px){
     .meet-wn{
     max-width: 65rem;
     display: block;
