@@ -131,27 +131,6 @@ align-items: center;
 }
 
 
-/*.quote1{
-    grid-column: 2/3;
-    grid-row: 1/2
-
-}
-
-.quote2{
-    grid-column: 3/4;
-    grid-row: 1/2
-}
-
-.quote3{
-    grid-column: 2/3;
-    grid-row:2/3
-}
-
-.quote4{
-    grid-column: 3/4;
-    grid-row:2/3
-}*/
-
 /* --------Button Styles------ */
 
 .btn-wrapper{
@@ -160,6 +139,7 @@ align-items: center;
     grid-gap: 1rem;
     transition: .5s all;
     max-width: 80vw;
+    margin: 0 auto;
 }
 
 .btn-outline{
