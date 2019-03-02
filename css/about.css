@@ -115,22 +115,13 @@ align-items: center;
     background: var(--dark-blue);
     color: var(--light-orange);
     font-weight: 700;
-    border: 3px solid var(--blue);
+    border: 3px solid var(--dark-orange);
 }
 
-@media all and (min-width:35rem){
+@media all and (min-width:50rem){
     .work-ethos{
         grid-template-columns: 1fr 1fr;
         grid-gap: 4rem;
-    }
-    .btn-wrapper{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 4rem;
-        padding: 0rem 2rem;
-        max-width: 80vw;
-        transition: .5s all;
-        margin: 0 auto;
     }
 }
 
@@ -156,6 +147,8 @@ align-items: center;
     grid-row:2/3
 }*/
 
+/* --------Button Styles------ */
+
 .btn-wrapper{
     display: grid;
     grid-template-columns: 1fr;
@@ -163,13 +156,6 @@ align-items: center;
     transition: .5s all;
     max-width: 80vw;
 }
-
-/*.btn1{
-    grid-column: 2/3;
-}
-.btn2{
-    grid-column: 3/4;
-}*/
 
 .btn-outline{
     border: 3px solid var(--blue);
@@ -184,6 +170,18 @@ align-items: center;
     padding: 1rem;
     margin: 0 0 4rem 0;
     }
+
+@media all and (min-width:800px){
+.btn-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 0rem 2rem;
+    max-width: 80vw;
+    transition: .5s all;
+    margin: 0 auto;
+}
+}
 
     .btn:hover{
         background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
