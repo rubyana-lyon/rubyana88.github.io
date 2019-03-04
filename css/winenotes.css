@@ -417,6 +417,37 @@ max-width: 13rem;
     grid-column: 3;
 }
 
+.highlight{
+    font-weight: bold;
+    color:var(--dark-orange);
+}
+
+
+/*<-------------------- USER STORIES & FLOWS ----------------------->*/
+.flow-wrapper{
+    background: #bbd0f3;
+    margin-top: 8rem;
+    padding-top: 1rem;
+    margin-bottom: 8rem;
+    padding-bottom: 6rem;
+}
+
+.flow-grid{
+    grid-template-columns: 1fr;
+    max-width: 90%;
+    place-items: center center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flow-grid p{
+    font-weight: bold;
+    margin-top: 8rem;
+}
+
+.flow3{
+    max-width: 60%;
+}
 
 
 /*<-------------------- Buttons ----------------------->*/
