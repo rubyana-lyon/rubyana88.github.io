@@ -422,6 +422,11 @@ max-width: 13rem;
     color:var(--dark-orange);
 }
 
+.highlight2{
+    font-weight: bold;
+    color:var(--blue);
+}
+
 
 /*<-------------------- USER STORIES & FLOWS ----------------------->*/
 .flow-wrapper{
@@ -430,6 +435,8 @@ max-width: 13rem;
     padding-top: 1rem;
     margin-bottom: 8rem;
     padding-bottom: 6rem;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .flow-grid{
@@ -449,6 +456,43 @@ max-width: 13rem;
     max-width: 60%;
 }
 
+/*<-------------------- WIREFRAMES ----------------------->*/
+.sketch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    padding-top: 6rem;
+    margin-top: 2rem;
+}
+
+.sketch img{
+    place-items: center center;
+}
+
+.test-wrapper{
+    background: #bbd0f3;
+    margin-top: 8rem;
+    padding-top: 1rem;
+    margin-bottom: 8rem;
+    padding-bottom: 6rem;
+}
+
+.test-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center center;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.test-l{
+    place-items: center center;
+    margin: 0 auto;
+}
+
+.test-grid img{
+    max-width: 4rem;
+}
 
 /*<-------------------- Buttons ----------------------->*/
 .btn:hover{
