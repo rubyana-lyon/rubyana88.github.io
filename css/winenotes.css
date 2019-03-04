@@ -199,6 +199,11 @@ h4{
 
 
 /* -------- Overview -------*/
+.overview-intro{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 .title{
     text-align: center;
 }
@@ -212,7 +217,7 @@ h4{
 @media all and (min-width:700px){
     .layout{
         display: grid;
-        grid-template-columns: 1fr 1fr 4fr;
+        grid-template-columns: 1fr .5fr 4fr;
         padding: 0rem 6rem;
     }
 
@@ -248,6 +253,11 @@ h4{
 }
 
 /*<-------------------- Discovery Phase ----------------------->*/
+.discovery-intro{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
 .portfolio-link{
     color:var(--blue);
     font-weight: bold;
@@ -264,6 +274,7 @@ h4{
 @media all and (min-width:700px){
     .layout h2{
         grid-column: 3/4;
+        margin: 1rem 0 5rem 0;
     }
 }
 
@@ -344,12 +355,18 @@ max-width: 13rem;
 }
 
 /*<-------------------- COMPETITIVE ANALYSIS ----------------------->*/
+.analysis-intro{
+    margin-top: 10rem;
+}
 
 /*<-------------------- USER PERSONAS ----------------------->*/
+.persona-intro{
+    margin-top: 10rem;
+}
+
 .persona-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
     column-gap: 6rem;
     padding: 4rem;
     place-items: center center;
@@ -371,7 +388,36 @@ max-width: 13rem;
     line-height: 24px;
     font-size: 20px;
     text-align: left;
+    margin: 0 auto;
 }
+
+.persona-grid p{
+    margin: 2rem 0 0 0;
+    align-self: start;
+}
+
+.persona-grid h4{
+    margin: 4rem auto 1rem auto;
+}
+
+.persona-grid ul{
+    align-self: start;
+}
+
+/*<-------------------- INFORMATION ARCHITECTURE ----------------------->*/
+.ia-intro{
+    margin-top: 10rem;
+}
+
+.line{
+    width: 6.5rem;
+    height: 0px;
+    border: 2px solid #F05D5E;
+    border-radius: 40px;
+    grid-column: 3;
+}
+
+
 
 /*<-------------------- Buttons ----------------------->*/
 .btn:hover{
