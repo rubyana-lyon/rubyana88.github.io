@@ -345,7 +345,33 @@ max-width: 13rem;
 
 /*<-------------------- COMPETITIVE ANALYSIS ----------------------->*/
 
+/*<-------------------- USER PERSONAS ----------------------->*/
+.persona-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    column-gap: 6rem;
+    padding: 4rem;
+    place-items: center center;
+    text-align: left;
+}
 
+.persona-grid h3{
+    text-align: center;
+}
+
+.persona-grid img{
+    max-width: 50%;
+}
+
+.persona-quote{
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 20px;
+    text-align: left;
+}
 
 /*<-------------------- Buttons ----------------------->*/
 .btn:hover{
