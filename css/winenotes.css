@@ -241,6 +241,9 @@ h4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
 }
 
 .wine-divider img{
@@ -251,6 +254,7 @@ h4{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(30deg);
 }
+
 
 /*<-------------------- Discovery Phase ----------------------->*/
 .discovery-intro{
@@ -488,16 +492,53 @@ max-width: 13rem;
 
 .test-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 40% 20% 40%;
     place-items: center center;
     max-width: 85%;
     margin: 0 auto;
 }
 
-.test-l{
-    place-items: center center;
-    margin: 0 auto;
+.version{
+    max-width: 4rem;
 }
+
+.v1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.pl{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.img-v1{
+    grid-row: 3;
+    grid-column: 1;
+    max-width: 100%;
+    justify-content: flex-start;
+}
+
+.pc{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.v2{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.pr{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.img-v2{
+    grid-row: 3;
+    grid-column: 3;
+}
+
 
 .quote{
     max-width: 80%;
