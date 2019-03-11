@@ -211,7 +211,6 @@ h4{
 .layout{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 0 2rem;
 }
 
 @media all and (min-width:700px){
@@ -545,6 +544,51 @@ max-width: 13rem;
     margin: 0 auto;
     font-size: 3rem;
     line-height: 40px;
+}
+
+/* -------- BRANDING -------*/
+.branding-title{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.branding-wrapper{
+    padding: 5rem;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -2;
+    max-height: 100vh;
+}
+
+.branding-divider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4.5rem;
+    align-items: center;
+    height: 100vh;
+}
+
+.pom{
+    position: absolute;
+        left: 40px;
+        max-width: 30vw;
+        top: 348px;
+        z-index: -1;
+    }
+
+.pom2{
+    position: absolute;
+    left: 62px;
+    max-width: 30vw;
+    top: 1px;
+    z-index: -1;
+    }
+.honeysuckle{
+    max-width: 20rem;
+    position: relative;
+        left: 1000px;
+    top: -754px;
 }
 
 /*<-------------------- Buttons ----------------------->*/
