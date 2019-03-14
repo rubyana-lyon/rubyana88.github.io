@@ -48,6 +48,7 @@ h4{
     font-size: 1.6rem;
     letter-spacing: 3.55556px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h5{
@@ -83,6 +84,8 @@ media all and (min-wdith:800px){
 p,ul {
     font-size: 1.6rem;
     line-height: 2.4rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 a{

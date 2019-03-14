@@ -200,8 +200,8 @@ h4{
 
 /* -------- Overview -------*/
 .overview-intro{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
 }
 
 .title{
@@ -211,13 +211,16 @@ h4{
 .layout{
     display: grid;
     grid-template-columns: 1fr;
+    margin-bottom: 5rem;
 }
 
 @media all and (min-width:700px){
     .layout{
         display: grid;
-        grid-template-columns: 1fr .5fr 4fr;
+        grid-template-columns: 230px 105px 600px;
         padding: 0rem 6rem;
+        align-self: start;
+        margin: 0 6rem 0 6rem;
     }
 
     .content-r{
@@ -414,7 +417,7 @@ max-width: 13rem;
 
 /*<-------------------- INFORMATION ARCHITECTURE ----------------------->*/
 .ia-intro{
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .line{
@@ -485,16 +488,19 @@ max-width: 13rem;
     background: #bbd0f3;
     margin-top: 8rem;
     padding-top: 1rem;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
     padding-bottom: 6rem;
 }
 
 .test-grid{
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 47% 6% 47%;
     place-items: center center;
-    max-width: 85%;
+    max-width: 95%;
     margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-weight: bold;
 }
 
 .version{
@@ -553,18 +559,46 @@ max-width: 13rem;
 }
 
 /* -------- BRANDING -------*/
-.branding-title{
+.branding-title h2{
+    margin: 1rem auto 5rem auto;
     text-align: center;
+}
+
+.line2{
+    width: 6.5rem;
+    height: 0px;
+    border: 2px solid #F05D5E;
+    border-radius: 40px;
     margin: 0 auto;
 }
 
+.the-logo{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.final-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    place-items: center center;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+.final-logo img{
+    max-height: 50vh;
+    place-items: center center;
+}
+
 .branding-wrapper{
-    padding: 5rem;
+    padding: 8rem;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
     z-index: -2;
     max-height: 100vh;
+    margin-bottom: 8rem;
 }
 
 .branding-divider{
@@ -573,6 +607,12 @@ max-width: 13rem;
     grid-gap: 4.5rem;
     align-items: center;
     height: 100vh;
+    justify-items: center;
+}
+
+.branding-image{
+    max-width: 70%;
+    align-self: start;
 }
 
 .pom{
@@ -597,12 +637,11 @@ max-width: 13rem;
     top: -754px;
 }
 
-/* -------- LOGO GRID -------*/
-
-
-@font-face{font-family:'Calluna';
- src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+.branding-end{
+    margin-bottom: 8rem;
 }
+
+/* -------- LOGO GRID -------*/
 body {
     background: url(//subtlepatterns.com/patterns/scribble_light.png);
   font-family: Calluna, Arial, sans-serif;
