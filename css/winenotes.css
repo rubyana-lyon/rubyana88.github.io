@@ -20,6 +20,10 @@ h4{
     color: var(--dark-orange);
 }
 
+body{
+    min-height: 100vh;
+}
+
 
 /* -------- Hero -------*/
 .hero{
@@ -267,11 +271,13 @@ h4{
 .portfolio-link{
     color:var(--blue);
     font-weight: bold;
+    font-size: 1.6rem;
+
 }
 
 .discovery-wrapper{
     margin-top: 8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 8rem;
 }
 
 .layout h2{
@@ -472,8 +478,8 @@ max-width: 13rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 3rem;
-    padding-top: 6rem;
-    margin-top: 2rem;
+    padding-top: 4rem;
+    margin-top: -4rem;
 }
 
 .sketch img{
@@ -552,10 +558,16 @@ max-width: 13rem;
     line-height: 40px;
 }
 
+.quote-wrapper{
+    margin: 4rem;
+}
+
 .video{
     text-align: center;
     margin: 0 auto;
     padding: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 
 /* -------- BRANDING -------*/
@@ -642,11 +654,6 @@ max-width: 13rem;
 }
 
 /* -------- LOGO GRID -------*/
-body {
-    background: url(//subtlepatterns.com/patterns/scribble_light.png);
-  font-family: Calluna, Arial, sans-serif;
-  min-height: 1000px;
-}
 #columns {
     column-width: 320px;
     column-gap: 15px;
@@ -696,6 +703,12 @@ div#columns:hover figure:not(:hover) {
   #columns { column-gap: 0px; }
   #columns figure { width: 100%; }
 }
+
+/*<-------------------- REFLECTIONS ----------------------->*/
+.reflections-wrapper{
+    margin-bottom: 8rem;
+}
+
 /*<-------------------- Buttons ----------------------->*/
 .btn:hover{
     background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
