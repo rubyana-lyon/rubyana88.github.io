@@ -1,0 +1,261 @@
+/*********************************************************************************
+**************                      GENERAL CSS                      *************
+*********************************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #0B0033;
+}
+
+h1, h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3.55556px;
+}
+
+p {
+    /* font-size: 0.8em; */
+}
+.row {
+    margin: 0;
+}
+
+/*********************************************************************************
+**************                      INDEX HTML                      *************
+*********************************************************************************/
+
+/* Navigation Bar */
+nav {
+    transition: .5s ease;
+}
+.nav-item:not(:nth-of-type(3)) {
+    margin-right: 0.5em;
+}
+.nav-item.active .nav-link{
+    color: #F05D5E !important;
+    font-weight: bold;
+}
+.nav-link {
+    font-size: 0.8rem;
+}
+
+/* HERO HEADER */
+.hero-header {
+    height: 100vh;
+}
+
+.hero-header .row {
+    height: 100%;
+}
+.hero-header img {
+    max-width: 5rem;
+}
+
+.hero-header h1 {
+    margin-top: 60px;
+}
+
+.orange-d {
+    color: #F05D5E;
+}
+
+.nav-scrolled {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+/* PARTICLES JS (HERO HEADER) */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+/* WINE NOTES SECTION */
+.winenotes-section {
+    background: #F7B18F;
+}
+
+.winenotes-main {
+    margin-top: 5rem;
+}
+
+.header-div {
+    margin-top: 3em;
+}
+
+.header-div h2 {
+    margin-bottom: 0;
+    font-size: calc(.5rem + 4vmin);
+}
+.winenotes-main h2, .fetch-section h2 {
+    font-size: 1.5em;
+    font-weight: 900;
+    font-style: normal;
+}
+.winenotes-main h5, .fetch-section h5, .footer-section h5 {
+    letter-spacing: 3.55px;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.section-description {
+    margin: 1em 0 2em;
+}
+
+#winenotes-img {
+    max-width: 100%;
+}
+
+
+/* FETCH SECTION */
+
+.fetch-section, .ruby-section, .footer-section {
+    padding: 4em 0;
+}
+.footer-section {
+    padding-bottom: 2em;
+}
+.fetch-section {
+    background: #5386E4;
+    color: #fff;
+}
+
+#fetch-img {
+    max-width: 70%;
+}
+
+/* RUBY SECTION */
+
+#ruby-img {
+    max-width: 100%;
+}
+
+/* FOOTER SECTION */
+.footer-section {
+    background: #0B0033;
+    color: #F7B18F;
+}
+
+.footer-section h5 {
+    margin: 36px 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-return {
+    margin: 60px 0 100px;
+}
+#return-top {
+    font-size: 1.2em;
+    color: #5386E4;
+}
+#return-top i {
+    transition: all 0.5s ease;
+}
+.contact-icons {
+    font-size: 2em;
+    text-align: right;
+}
+
+.contact-icons a {
+    color: #F7B18F;
+    margin-left: 3rem;
+}
+
+/* BUTTONS */
+.custom-btn {
+    border: 3px solid #0B0033;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #0B0033;
+    padding: 10px 2em;
+    border-radius: 40px;
+    font-weight: 600;
+    line-height: 2.2rem;
+    font-size: 0.8em;
+    text-align: center;
+    letter-spacing: 3.55556px;
+    text-align: center;
+    display: block;
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    transition: .5s all;
+}
+
+.custom-btn-fetch {
+    border: 3px solid #fff;
+    border-radius: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 2em;
+    border-radius: 40px;
+    font-weight: 600;
+    line-height: 2.2rem;
+    font-size: 0.8em;
+    text-align: center;
+    letter-spacing: 3.55556px;
+    text-align: center;
+    display: block;
+    transition: .5s all;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        padding-top: 60px;
+    }
+    nav {
+        background: #fff;
+    }
+    .nav-link {
+        padding: 1em 0;
+    }
+    .winenotes-content, .btn-div, .fetch-img-container, .fetch-content, .ruby-content, .contact-icons {
+        text-align: center;
+    }
+    #winenotes-btn {
+        display: inline-block;
+    }
+    #winenotes-img, #ruby-img {
+        margin-top: 2em;
+    }
+    .fetch-img-container img {
+        margin-bottom: 2em;
+    }
+    .footer-links {
+        text-align: center !important;
+    }
+    .contact-icons > a:nth-of-type(1) {
+        margin: 0;
+    }
+}
+
