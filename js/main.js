@@ -10,8 +10,6 @@ $(document).ready(function(){
       else{
         $("nav").removeClass("nav-scrolled");  	
       }
-      $('.contact-icons').removeClass('text-right');
-      $('.contact-icons').addClass('text-center');
     } else {
 	  if (scroll > 600) {
 	    $("nav").addClass("nav-scrolled");
