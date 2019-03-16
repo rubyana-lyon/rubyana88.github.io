@@ -25,10 +25,6 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 3.55556px;
 }
-
-p {
-    /* font-size: 0.8em; */
-}
 .row {
     margin: 0;
 }
@@ -179,20 +175,22 @@ nav {
     text-align: right;
 }
 
-.contact-icons a {
+.footer-icon {
     color: #F7B18F;
-    margin-left: 3rem;
 }
 
+.footer-icon:not(:nth-of-type(1)) {
+    margin-left: 3rem;
+}
 /* BUTTONS */
 .custom-btn {
-    border: 3px solid #0B0033;
+    border: 2px solid #0B0033;
     border-radius: 40px;
     text-transform: uppercase;
     color: #0B0033;
     padding: 10px 2em;
     border-radius: 40px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 2.2rem;
     font-size: 0.8em;
     text-align: center;
@@ -208,23 +206,6 @@ nav {
     -moz-border-radius: 40px;
     border-radius: 40px;
     border: 2px solid #fff;
-    transition: .5s all;
-}
-
-.custom-btn-fetch {
-    border: 3px solid #fff;
-    border-radius: 40px;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 10px 2em;
-    border-radius: 40px;
-    font-weight: 600;
-    line-height: 2.2rem;
-    font-size: 0.8em;
-    text-align: center;
-    letter-spacing: 3.55556px;
-    text-align: center;
-    display: block;
     transition: .5s all;
 }
 
@@ -249,13 +230,10 @@ nav {
         margin-top: 2em;
     }
     .fetch-img-container img {
-        margin-bottom: 2em;
+        margin: 2em 0;
     }
     .footer-links {
         text-align: center !important;
-    }
-    .contact-icons > a:nth-of-type(1) {
-        margin: 0;
     }
 }
 

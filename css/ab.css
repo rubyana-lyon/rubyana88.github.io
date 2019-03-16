@@ -1,0 +1,60 @@
+/*********************************************************************************
+**************                      GENERAL CSS                      *************
+*********************************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #0B0033;
+    padding-top: 80px;
+}
+
+h1, h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3.55556px;
+}
+.row {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+/*********************************************************************************
+**************                      ABOUT HTML                      *************
+*********************************************************************************/
+
+/* Navigation Bar */
+nav {
+    transition: .5s ease;
+}
+.nav-item:not(:nth-of-type(3)) {
+    margin-right: 0.5em;
+}
+.nav-item.active .nav-link{
+    color: #F05D5E !important;
+    font-weight: bold;
+}
+.nav-link {
+    font-size: 0.8rem;
+}
+
+/* header photo */
+
+#header-img-ruby {
+    margin-top: 1em;
+    border-radius: 10px;
+}
