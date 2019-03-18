@@ -1,0 +1,344 @@
+/*********************************************************************************
+**************                      GENERAL CSS                      *************
+*********************************************************************************/
+/*TODO: CLEAN CSS CODE AND REFACTOR CLASSES
+        COMPLETE THE REST OF THE WINENOTES PAGE*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: #0B0033;
+}
+
+h1, h6 {
+    font-family: Frank Ruhl Libre Black, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: calc(1rem + 5vmin);
+    letter-spacing: 1px;
+}
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+h3 {font-family: Frank-Ruhl-Libre, serif;
+    color: #0B0033;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2.4rem;
+    font-size: 1.5rem;
+}
+
+h4, h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #F05D5E;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3.55556px;
+}
+.row {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.orange-text {
+    color: #F05D5E;
+    font-weight: bold;
+}
+
+/*********************************************************************************
+**************                     HERO HEADER                      *************
+*********************************************************************************/
+
+.wine-hero {
+    padding-top: 150px;
+    position: relative;
+    background: #bbd0f3;
+    overflow: hidden;
+}
+
+#lemon-img, #grapefruit-img, #leaf-img {
+    position: absolute;
+}
+
+#lemon-img {
+    left: -120px;
+    top: -20px;
+}
+#grapefruit-img {
+    top: 290px;
+    right: -105px;
+}
+.wine-hero .row {
+    height: 100%;
+}
+
+#wine-logo-hero {
+    max-width: 9em;
+    margin-bottom: 3em;
+}
+
+.wine-hero h1 {
+    font-size: 2.6rem;
+}
+.wine-hero p {
+    margin-bottom: 6rem;
+}
+.hero-submenu, .hero-submenu a {
+    background: #5386E4;
+    color: #fff;
+}
+
+.hero-submenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-submenu ul li {
+    float: left;
+}
+
+.hero-submenu ul li a, .hero-submenu ul li {
+    padding: 1em;
+}
+
+/*********************************************************************************
+**************          WINE SECTION: MEET WINE NOTES                *************
+*********************************************************************************/
+
+.wine-section {
+    padding: 5em 0;
+    position: relative;
+}
+
+#leaf-img {
+    left: -300px;
+    top: -10px;
+    max-width: 9em;
+}
+
+.wine-brief p:nth-of-type(1) {
+    margin-bottom: 3em;
+}
+.wine-brief button {
+    margin-bottom: 4em;
+}
+
+.wine-project-info h4 {
+    margin-bottom: 1em;
+}
+
+/*********************************************************************************
+**************                  WINE SECTION: Overview              *************
+*********************************************************************************/
+
+.wine-overview h2, .wine-discovery h2 {
+    padding-top: 10px;
+}
+.orange-line {
+    border-top: 4px solid #F05D5E;
+    width: 8%;
+}
+
+.wine-overview .row {
+    margin-bottom: 1em;
+}
+.wine-overview .row:nth-of-type(2) {
+    margin-bottom: 4em;
+}
+.wine-overview .row:nth-of-type(1) h2, .wine-discovery .row:nth-of-type(1) h2 {
+    margin-bottom: 2em;
+}
+.ap-column {
+    padding: 0;
+}
+.ap-column h3 {
+    margin-top: 1em;
+    line-height: 1em;
+}
+
+/*********************************************************************************
+**************          WINE SECTION: Overview Parallax              *************
+*********************************************************************************/
+.overview-parallax {
+    height: 100vh;
+    background: url('../images/parallax-test.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*********************************************************************************
+**************          WINE SECTION: DISCOVERY SECTION              *************
+*********************************************************************************/
+
+.wine-section-link {
+    color: #5386E4;
+    font-weight: bold;
+    margin-bottom: 4em;
+}
+
+#portfolio-paragraph {
+    margin-top: 3em;
+}
+
+/*********************************************************************************
+**************          WINE SECTION: RESEARCH FINDINGS              *************
+*********************************************************************************/
+.wine-krf {
+    background: #0B0033;
+}
+
+.wine-krf h3, .wine-krf p {
+    color: #fff;
+}
+
+i {
+    font-size: 4em;
+    color: #F7B18F;
+}
+
+.krf-section h3, .wine-krf h6, .wine-statistic h3 {
+    color: #F7B18F;
+}
+.wine-krf h6 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.wine-krf p {
+    font-weight: 300;
+}
+
+.krf-section:nth-of-type(1) {
+    margin-top: 6em;
+}
+
+.wine-statistic {
+    margin-top: 3em;
+}
+.pie-chart {
+    max-width: 10em;
+    margin: 2em;
+}
+
+/*********************************************************************************
+**************          WINE SECTION: COMPETITIVE ANALYSIS           *************
+*********************************************************************************/
+
+.wine-competitive-analysis .row:nth-of-type(2) {
+    margin-top: 5em;
+}
+
+.wine-competitive-analysis .row:nth-of-type(2) .col-lg-7 p:nth-last-of-type(1) {
+    margin-top: 4em;
+}
+
+/*********************************************************************************
+**************                  WINE SECTION: PERSONAS               *************
+*********************************************************************************/
+.persona-img {
+    max-width: 80%;
+}
+
+.persona-name {
+    line-height: 24px;
+    margin: 2em 0;
+}
+.persona-quote {
+    font-family: Frank-Ruhl-Libre, serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+}
+
+.persona-age {
+    margin: 2em 0;
+    text-align: center;
+}
+.persona-list-title {
+    font-weight: bold;
+}
+
+.user-sf {
+    padding-bottom: 3em;
+}
+
+
+/*********************************************************************************
+**************                  WINE SECTION: WINE FLOWS              ************
+*********************************************************************************/
+.wine-flows {
+    background: #bbd0f3;
+}
+
+.flow-title {
+    font-weight: bold;
+    margin: 3em;
+}
+
+.flow-img {
+    margin-bottom: 2em;
+}
+
+.flow-img:nth-of-type(3) {
+    max-width: 70%;
+}
+
+/*********************************************************************************
+**************                  WINE SECTION: WINE VS              ************
+*********************************************************************************/
+
+.wine-vs {
+    background: #bbd0f3;
+}
+
+.wine-low-fidelity-parallax {
+    height: 100vh;
+    background: url('../images/parallax-test-2.PNG');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+/*********************************************************************************
+**************                          BUTTONS                      *************
+*********************************************************************************/
+
+.custom-btn {
+    border: 3px solid #5386E4;
+    border-radius: 40px;
+    /* text-decoration: none; */
+    /* font-size: 1.6rem; */
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+    color: #0B0033;
+    text-align: center;
+    padding: 0.5rem 3rem;
+    /* background: transparent; */
+    display: block;
+    margin: 0 auto;
+}
+
+.custom-btn:hover{
+    background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 3px solid #0B0033;
+    transition: .5s all;
+}

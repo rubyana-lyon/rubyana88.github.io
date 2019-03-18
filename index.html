@@ -1,141 +1,186 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Ruby Lyon</title>
-        <link rel="stylesheet" type="text/css" href="css/landing.css">
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <link rel="stylesheet" href="css/animate.css"/>
-        <script src="js/wow.min.js"></script>
+<html lang="en">
 
-        <script>
-            new WOW().init();
-        </script>
-<!--- Global site tag (gtag.js) - Google Analytics --->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134155547-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ruby Lyon</title>
+    <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Poppins:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--- Global site tag (gtag.js) - Google Analytics --->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134155547-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-134155547-1');
+    </script>
+</head>
 
-  gtag('config', 'UA-134155547-1');
-</script>
-    </head>
-
-<!--- Landing Nav --------------->
-<body>
-    <header>
-            <div class="logo">
-                    <img src="images/logo.png" alt="Ruby Lyon">
-            </div>
-            <nav>
-                    <a href="#projects">Projects</a>
-                    <a href="about.html">About</a>
-                    <a href="ruby-lyon-resume.pdf" target="blank">Resume</a>
-            </nav>
-            </div>
-
-    </header>
-
-    <!--- Home Hero --------------->
-
-    <section class="home-hero">
-        <a name="top"></a>
-        <div>
-            <img class="logo2" src="images/logo2.png" alt="Ruby Lyon">
-            <h1><span class="orange-d">NYC-based UX/UI designer</span> creating joyful & accessible design</h1>
+<body id="top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="40px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#projects">projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" target="_blank" href="ruby-lyon-resume.pdf">resume</a>
+                </li>
+            </ul>
         </div>
-    </section>
-
-<!--- Case Studies --------------->
-<section class="case-studies bg-orange-l">
-    <div class="cs-header">
-    <a name="projects"></a>
-    <h2>Work Work Work*</h2>
-    <p>*case studies</p>
-    </div>
-
-<!--- Wine Notes --------------->
-<div class="cs-wrapper">
-<div class="cs-grid cs-winenotes">
-    <div class="case-study-l">
-            <h5>Ecommerce</h5>
-            <h2>Wine Notes</h2>
-            <p>A new information architecture for buying wine, based on flavor and scent. Ecommerce meets the idea of food in the form of wine.</p>
-            <div class="btn">
-                <a href="wine-notes.html" class="btn-outline">Uncork Case Study</a>
+    </nav>
+    <div class="fluid-container hero-header">
+        <div class="row d-flex flex-row justify-content-center align-items-center">
+            <div class="col-lg-6 text-center">
+                <img src="images/logo2.png" alt="">
+                <h1><span class="orange-d">NYC-based UX/UI designer </span>creating joyful & accessible design</h1>
             </div>
-        </div>
-        <div class="case-study-r">
-                <img src="images/winenotes.png" alt="wine notes">
         </div>
     </div>
-</div>
-<!--- Fetch --------------->
-<div class="cs-wrapper bg-blue-l">
-    <div class="cs-grid cs-fetch">
-        <div class="case-study-l">
-            <h5>Mobile App</h5>
-            <h2>Fetch</h2>
-            <p>Innovative pet management app that tracks health, wellness, and care. Think FitBit meets Apple Health.</p>
-            <div>
-                <p>Case study coming soon!</p>
+    <div id="projects" class="fluid-container winenotes-section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header-div text-center">
+                    <h2 class="text-center">Work Work Work*</h2>
+                    <p>*case studies</p>
+                </div>
+                <div class="winenotes-main">
+                    <div class="row d-flex flex-row justify-content-center align-items-center">
+                        <div class="col-lg-10">
+                            <div class="row d-flex flex-row justify-content-between align-items-center">
+                                <div class="col-lg-5 winenotes-content">
+                                    <h5>ECOMMERCE</h5>
+                                    <h2>Wine Notes</h2>
+                                    <p class="section-description">A new information architecture for buying wine,
+                                        based on flavor and scent. Ecommerce meets the idea of food in the form of
+                                        wine.</p>
+                                    <div class="btn-div text-center">
+                                        <button id="winenotes-btn" class="btn btn-lg btn-outline-dark custom-btn">UNCORK CASE STUDY</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img id="winenotes-img" src="images/winenotes.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="case-study-r">
-                <img src="images/fetch.png" alt="Fetch">
+    </div>
+    <div class="fluid-container fetch-section">
+        <div class="row d-flex flex-row justify-content-center fetch-content">
+            <div class="col-lg-10">
+                <div class="container">
+                    <div class="row d-flex flex-row justify-content-between">
+                        <div class="col-lg-5 col-sm-5 d-flex flex-column justify-content-center fetch-content order-xs-1 order-lg-2">
+                                <h5>MOBILE APP</h5>
+                                <h2>Fetch</h2>
+                                <p class="section-description">Innovative pet management app that tracks health, wellness,
+                                    and care. Think FitBit meets Apple Health.</p>
+                                <button class="btn btn-lg btn-outline-dark custom-btn">CASE STUDY COMING SOON</button>
+                        </div>
+                        <div class="col-lg-5 col-sm-5 fetch-img-container order-xs-2 order-lg-1">
+                            <img id="fetch-img" src="images/fetch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+    <div class="fluid-container ruby-section">
+        <div class="row d-flex flex-row justify-content-center ruby-content">
+            <div class="col-lg-10">
+                <div class="container">
+                    <div class="row d-flex flex-row justify-content-between">
+                        <div class="col-lg-5 d-flex flex-column justify-content-center ruby-content">
+                            <h2>A Girl Named Ruby</h2>
+                            <p class="section-description">Across all of my professional experiences, UX design has
+                                been in everything––in designing promotional materials and content, in problem solving
+                                with people through AmeriCorps, to understanding consumers through market research as a
+                                marketing manager.</p>
+                            <button id="ruby-btn" class="btn btn-lg btn-outline-dark custom-btn">WHY I BECAME A DESIGNER</button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img id="ruby-img" src="images/ruby.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fluid-container footer-section">
+        <div class="row d-flex flex-row justify-content-center">
+            <div class="col-lg-12 text-center">
+                <div class="footer-content">
+                    <h2>Onwards & Upwards</h2>
+                    <p>Let's make something awesome together (coffee optional but improves the experience).</p>
+                    <h5>GET IN TOUCH</h5>
+                    <a href="mailto: rubyana.lyon@gmail.com">rubyana.lyon@gmail.com</a>
+                    <div class='top-return'>
+                        <a id="return-top" href="#top">
+                            <span id="uparrow" class="">
+                                <i class="icon ion-md-arrow-up" href="#top"></i>
+                            </span>
+                            <p>Back to top</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row footer-links">
+                <div class="col-lg-6 order-xs-2 order-2">
+                    <p>© 2019 | designed and developed by Ruby Lyon</p>
+                </div>
+                <div class="col-lg-6 order-xs-1 order-lg-2 contact-icons ">
+                    <a class="footer-icon icon ion-logo-twitter" href="https://twitter.com/rubyanalyon" target="_blank"></a>
+                    <a class="footer-icon icon ion-logo-linkedin" href="https://www.linkedin.com/in/rubyana-lyon/" target="_blank"></a>
+                    <a class="footer-icon icon ion-logo-github" href="https://github.com/rubyana88" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!--- Ruby Bio --------------->
-<div class="cs-wrapper bg-white">
-    <div class="cs-grid cs-ruby">
-        <div class="case-study-l">
-            <h2>A Girl Named Ruby</h2>
-            <p>Across all of my professional experiences, UX design has been in everything––in designing promotional materials and content, in problem solving with people through AmeriCorps, to understanding consumers through market research as a marketing manager.</p>
-            <div class="btn">
-                <a class="btn-outline" href="about.html">Why I became a designer</a>
-            </div>
-        </div>
-        <div class="case-study-r">
-            <img src="images/ruby.png" alt="ruby">
-        </div>
+
+
+
+
+    <div id="particles-js">
+        <canvas class="particles-js-canvas-el"></canvas>
     </div>
-</div>
-</section>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
-<!--- Footer --------------->
-<footer class="bg-blue-d">
-    <section class="footer1">
-        <div class="contact">
-            <h2 class="orange-l">Onwards & Upwards</h2>
-            <p class="orange-l">Let’s make something awesome together (coffee optional but improves the experience).</p>
-        <div>
-            <h5 class="orange-l">Get in touch</h5>
-        </div>
-        <div class="email">
-            <a class="white" href="mailto:rubyana.lyon@gmail.com">rubyana.lyon@gmail.com</a>
-        </div>
-            <div class="return-top">
-                <a class="icon ion-md-arrow-up" href="#top"></a>
-                <a class="blue-l" href="#top">Back to top</a>
-            </div>
-        </div>
-    </section>
-    <div class="footer2">
-        <div>
-        <p class="orange-l">© 2019 | designed and developed by Ruby Lyon</p>
-        </div>
-        <div class="contact-icons">
-            <a class="icon ion-logo-twitter" href="https://twitter.com/rubyanalyon" target="_blank"></a>
-            <a class="icon ion-logo-linkedin" href="https://www.linkedin.com/in/rubyana-lyon/" target="_blank"></a>
-            <a class="icon ion-logo-github" href="https://github.com/rubyana88" target="_blank"></a>
-        </div>
-    </div>
-</footer>
+
+</html>
