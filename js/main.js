@@ -24,7 +24,7 @@ $(document).ready(function(){
 //Button redirects
 
 $('#winenotes-btn').on('click', function() {
-  document.location.href = 'wine-notes.html';
+  document.location.href = 'wine.html';
 })
 
 $('#ruby-btn').on('click', function() {

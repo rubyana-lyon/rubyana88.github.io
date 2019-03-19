@@ -11,7 +11,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700|Poppins:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/wine.css">
+    <link rel="stylesheet" href="css/wi.css">
 </head>
 
 <body>
@@ -24,286 +24,228 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">projects</a>
+                    <a class="nav-link" href="index.html#projects">projects</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="about.html">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="ruby-lyon-resume.pdf">resume</a>
+                    <a class="nav-link" target="_blank" href="ruby-lyon-resume.pdf">resume</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="fluid-container wine-hero">
-        <div class="row d-flex flex-row justify-content-center align-items-center">
-            <div class="col-lg-12 d-flex flex-column align-items-center">
-                <img src="images/winenotes-white-logo.png" id="wine-logo-hero" alt="">
-                <img id="lemon-img" src="images/lemon.png" alt="">
-                <img src="images/grapefruit.png" alt="" id="grapefruit-img">
-                <h1>Reimagine Wine</h1>
-                <div class="row d-flex flex-row align-items-center justify-content-center">
-                    <div class="col-lg-7 text-center">
-                        <p>Wine Notes helps people understand a traditionally esoteric beverage by relating it back to
-                            something we can all get behind: food.</p>
-                    </div>
-                </div>
-                <div class="row d-flex flex-row justify-content-center">
-                    <div class="col-lg-10">
-                        <img src="images/winenotes2.png" alt="">
-                    </div>
+    <div class="hero-wrapper fluid-container">
+        <div class="hero-header d-flex flex-column align-items-center">
+            <img id="lemon" class="absolute-img" src="images/lemon.png" alt="">
+            <img id="hero-logo" src="images/winenotes-white-logo.png" alt="">
+            <img id="grapefruit" class="absolute-img" src="images/grapefruit.png" alt="">
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-lg-8">
+                    <img id="hero-mockup" src="images/winenotes2.png" alt="">
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="row hero-submenu">
-        <div class="col-lg-12">
-            <div class="container">
-                <ul class="list-unstyled d-flex flex-row justify-content-between align-items-between">
-                    <li><a href="#">Overview</a></li>
-                    <li><a href="#">Discovery</a></li>
-                    <li><a href="#">Information Architecture</a></li>
-                    <li><a href="#">Branding</a></li>
-                    <li><a href="#">Visual Design & Testing</a></li>
-                    <li><a href="#">Reflections</a></li>
+            <div class="hero-submenu d-flex flex-column justify-content-center align-items-center">
+                <ul class="hero-submenu-list list-unstyled">
+                    <li><a href="">Overview</a></li>
+                    <li><a href="">Discovery</a></li>
+                    <li><a href="">Information Architecture</a></li>
+                    <li><a href="">Branding</a></li>
+                    <li><a href="">Visual Design & Testing</a></li>
+                    <li><a href="">Reflections</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="wine-section wine-brief fluid-container">
-        <div class="row d-flex flex-row justify-content-center align-items-center">
-            <div class="col-lg-6 text-center">
-                <h2>Meet Wine Notes</h2>
-                <img src="images/leaf.png" alt="" id="leaf-img">
-                <p>Wine can be confusing, Wine Notes is here to fix that. Wine Notes helps users understand a
-                    traditionally esoteric beverage by relating it back to something we can all get behind: food. Users
-                    discover wine they’ll love by the brand’s flavor-focused highlights which guide the entire design.</p>
-                <button class="btn btn-md btn-outline-primary custom-btn">VIEW FINAL PROTOTYPE</button>
-            </div>
-        </div>
-    </div>
-    <div class="row d-flex justify-content-center wine-project-info">
-        <div class="col-lg-3 text-center">
-            <h4>Duration</h4>
-            <ul class="list-unstyled">
-                <li>8 weeks</li>
-            </ul>
-        </div>
-        <div class="col-lg-3 text-center">
-            <h4>Role</h4>
-            <ul class="list-unstyled">
-                <li>UX Design</li>
-                <li>UI Design</li>
-                <li>Branding</li>
-            </ul>
-        </div>
-        <div class="col-lg-3 text-center">
-            <h4>Tools</h4>
-            <ul class="list-unstyled">
-                <li>Figma</li>
-                <li>Draw.io</li>
-                <li>Illustrator</li>
-                <li>Invision</li>
-                <li>Maze.Design</li>
-                <li>UsabilityHub</li>
-                <li>Dropbox</li>
-                <li>Google Forms</li>
-            </ul>
-        </div>
-    </div>
-    <div class="wine-section wine-overview fluid-container">
+    <!-- MEET WINE NOTES -->
+    <div class="section meet-wine-notes">
+        <img id="leaf" class="absolute-img" src="images/leaf.png" alt="">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                </div>
-                <div class="col-lg-7">
-                    <div class="orange-line"></div>
-                    <h2>Overview</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>THE CHALLENGE</h4>
-                    <div class="row">
-                        <div class="col-lg-5 ap-column">
-                            <h3>What’s an appellation, anyways?</h3>
+            <div class="row d-flex flex-column justify-content-center align-items-center">
+                <div class="col-lg-7 d-flex flex-column align-items-center">
+                    <h2 class="section-header">Meet Wine Notes</h2>
+                    <p>Wine can be confusing, Wine Notes is here to fix that. <span class="orange-text">Wine Notes helps users understand a traditionally esoteric beverage by relating it back to something we can all get behind: food. </span>Users discover wine they’ll love by the brand’s flavor-focused highlights which guide the entire design.</p>
+                    <button class="custom-btn">VIEW FINAL PROTOTYPE</button>
+                    <div id="duration-role-tools-div" class="row d-flex flex-row justify-content-between">
+                        <div class="col-lg-3">
+                            <h4>Duration</h4>
+                            <ul class="list-unstyled">
+                                <li>8 weeks</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h4>Role</h4>
+                            <ul class="list-unstyled">
+                                <li>UX Design</li>
+                                <li>UI Design</li>
+                                <li>Branding</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h4>Tools</h4>
+                            <ul class="list-unstyled">
+                                <li>Figma</li>
+                                <li>Draw.io</li>
+                                <li>Illustrator</li>
+                                <li>Invision</li>
+                                <li>Maze.Design</li>
+                                <li>UsabilityHub</li>
+                                <li>Dropbox</li>
+                                <li>Google Forms</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <p>Varietal, vintage, appellation, region—traditional wine e-commerce websites structure their information architecture and content by classifying buckets that mean little in terms of flavor to someone who is not well acquainted to wine.</p>
-                    <p><span class="orange-text">
-                            How do we redesign the wine shopping experience
-                            to make flavor understandable to an every day (or not so often!) consumer?
-                    </span></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>THE SOLUTION</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p>Every aspect of Wine Notes was designed to relate wine back to the smell and flavors found in
-                        nature, a produce aisle, or out in the garden. Flavor rules the hierarchy. Product pages boast
-                        prominent flavor profile images along with called out highlights like pairings and sweetness.
-                        Product filtering options are taste-centric, allowing users to quickly find and match wines
-                        based on flavor preferences.</p>
-                    <p>To further inform buying decisions Wine Notes implements a rating and review system which allows
-                        customers the option to leave written reviews and rate how closely the product descriptions
-                        actually align with the true wine flavor.</p>
-                </div>
             </div>
         </div>
     </div>
-    <div class="wine-section overview-parallax"></div>
-    <div class="wine-section wine-discovery fluid-container">
+    <!-- OVERVIEW -->
+    <div class="section overview-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                </div>
-                <div class="col-lg-7">
-                    <div class="orange-line"></div>
-                    <h2>Discovery Phase</h2>
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-8">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Overview</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>USER SURVEYS</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p><span class="orange-text">As the researcher, UX & UI designer, and product manager, I was responsible for creating Wine Notes from conception to completion.</span><br>When I set out to improve the wine e-commerce experience I needed to understand my target audience and identify the problem. I crafted two user surveys, one to narrow in on my demographics, and another to better understand people’s shopping behaviors.</p>
-                    <p><span class="orange-text">I wanted to answer the following questions:</span><br>
-                        What are the factors people consider in selecting a wine?<br>
-                        What do people find challenging about purchasing wine?<br>
-                        Do users understand basic characteristics of popular wine varieties?<br>
-                        Are people interested in learning about the flavor profile?<br>
-                        How do people like to sort and filter wine?<br>
-                        What descriptions do users want to see on a product page?<br>
-                        What helps someone feel more confident in selecting a bottle they will like?</p>
-                        <p>The survey questions were completed by 26 respondents.</p>
-                        <p id="portfolio-paragraph">See what started it all: <a href="#" class="wine-section-link">my first user survey</a> and <a href="" class="wine-section-link"> second user survey.</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wine-section wine-krf fluid-container">
-        <div class="container">
-            <div class="row d-flex flex-row justify-content-between wine-krf-icons">
+            <div class="row section-row d-flex flex-row justify-content-between">
                 <div class="col-lg-3">
-                    <h3>Key research<br>findings</h3>
-                    <div class="krf-section text-center">
-                        <i class="icon ion-md-cart"></i>
-                        <p class="text-left">58% of respondants have bought wine online before; This isn’t something new!</p>
-                    </div>
-                    <div class="krf-section text-center">
-                        <i class="icon ion-md-bowtie"></i>
-                        <p class="text-left">Special occasions: the most popular motivation for buying wine.</p>
-                    </div>
-                    <div class="krf-section text-center">
-                        <h3 class="orange-text">$12-18</h3>
-                        <p class="text-left">The most popular price range for a single bottle of wine</p>
-                    </div>
+                    <h4>THE CHALLENGE</h4>
+                    <h5 class="section-left-subtitle">What’s an<br> appellation,<br> anyways?</h5>
                 </div>
                 <div class="col-lg-8">
-                    <div class="container">
-                        <h6>What do you find challenging about buying wine?</h6>
-                        <p>“The way the store is organized doesn't make it easy to filter for the taste you want without some level of wine knowledge.”</p>
-                        <p>“Knowing what it will taste like when there is no description of the flavor.”</p>
-                        <p>“Deciding what flavor I would like.”</p>
-                        <p>“Not knowing if I like it before I buy it; for example, not all Chardonnays taste the same.”</p>
-                        <div class="wine-statistic">
-                            <div class="row">
-                                <div class="col-lg-6 d-flex flex-column align-items-center">
-                                    <h3>93%</h3>
-                                    <img class="pie-chart" src="images/wn-images/research92.png" alt="">
-                                    <p>When purchasing wine, 92% of test respondants would like to learn more about the wine’s flavor profile</p>
-                                </div>
-                                <div class="col-lg-6 d-flex flex-column align-items-center">
-                                    <h3>77%</h3>
-                                    <img class="pie-chart" src="images/wn-images/research77.png" alt="">
-                                    <p>77% of users would  take a  test to better understand what wines they like</p>
-                                </div>
-                            </div>
+                    <p class="section-paragraph">Varietal, vintage, appellation, region—traditional wine e-commerce websites structure their information architecture and content by classifying buckets that mean little in terms of flavor to someone who is not well acquainted to wine.</p>
+                    <p class="section-paragraph"><span class="orange-text">How do we redesign the wine shopping experience to make flavor understandable to an every day (or not so often!) consumer?</span></p>
+                </div>
+            </div>
+            <div class="row section-solution-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>THE SOLUTION</h4>
+                </div>
+                <div class="col-lg-8">
+                    <p class="section-paragraph">Every aspect of Wine Notes was designed to relate wine back to the smell and flavors found in nature, a produce aisle, or out in the garden. Flavor rules the hierarchy. Product pages boast prominent flavor profile images along with called out highlights like pairings and sweetness. Product filtering options are taste-centric, allowing users to quickly find and match wines based on flavor preferences.</p>
+                    <p class="section-paragraph">To further inform buying decisions Wine Notes implements a rating and review system which allows customers the option to leave written reviews and rate how closely the product descriptions actually align with the true wine flavor.</p>
+                </div>
+            </div>
+        </div>
+        <div class="fluid-container parallax-overview"></div>
+    </div>
+    <div class="section discovery-section">
+        <div class="container">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-8">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Discovery Phase</h2>
+                </div>
+            </div>
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>USER SURVEYS</h4>
+                </div>
+                <div class="col-lg-8">
+                    <p class="section-paragraph"><span class="orange-text">As the researcher, UX & UI designer, and product manager, I was responsible for creating Wine Notes from conception to completion.</span> When I set out to improve the wine e-commerce experience I needed to understand my target audience and identify the problem. I crafted two user surveys, one to narrow in on my demographics, and another to better understand people’s shopping behaviors</p>
+                    <p class="section-paragraph" id="discovery-question-title"><span class="orange-text">I wanted to answer the following questions:</span></p>
+                    <div class="discovery-questions">
+                        <p class="discovery-questions">What are the factors people consider in selecting a wine?</p>
+                        <p class="discovery-questions">What do people find challenging about purchasing wine?</p>
+                        <p class="discovery-questions">Do users understand basic characteristics of popular wine varieties?</p>
+                        <p class="discovery-questions">Are people interested in learning about the flavor profile?</p>
+                        <p class="discovery-questions">How do people like to sort and filter wine?</p>
+                        <p class="discovery-questions">What descriptions do users want to see on a product page?</p>
+                        <p class="discovery-questions">What helps someone feel more confident in selecting a bottle they will like?</p>
+                    </div>
+                    <p>The survey questions were completed by 26 respondents.</p>
+                    <p id="what-started-paragraph">See what started it all: <a target="_blank" href="https://goo.gl/forms/mdAJfwYw3aIFI6vU2">my first user survey</a> and <a target="_blank" href="https://goo.gl/forms/AEaW2wgpWg0A6lpd2">second user survey</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-dark-bg key-research">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h3 id="key-research-h3">Key research findings</h3>
+                    <i class="icon ion-md-cart key-research-icon"></i>
+                    <p class="key-research-paragraph">58% of respondants have bought wine online before; This isn’t something new!</p>
+                    <i class="icon ion-md-bowtie key-research-icon"></i>
+                    <p class="key-research-paragraph">Special occasions: the most popular motivation for buying wine.</p>
+                    <h6 class="key-research-icon key-research-icon-text">$12-18</h6>
+                    <p class="key-research-paragraph">The most popular price range for a single bottle of wine</p>
+                </div>
+                <div class="col-lg-8">
+                    <h5 class="key-research-h5">What do you find challenging about buying wine?</h5> 
+                    <p>“The way the store is organized doesn't make it easy to filter for the taste you want without some level of wine knowledge.”</p>
+                    <p>“Knowing what it will taste like when there is no description of the flavor."</p>
+                    <p>“Deciding what flavor I would like.”</p>
+                    <p>“Not knowing if I like it before I buy it; for example, not all Chardonnays taste the same.”</p>
+                    <div class="row pie-chart-div">
+                        <div class="col-lg-6 d-flex flex-column align-items-center">
+                            <h5 class="key-research-h5">93%</h5>
+                            <img class="pie-chart-img" src="images/wn-images/research92.png" alt="">
+                            <p>When purchasing wine, 92% of test respondants would like to learn more about the wine’s flavor profile</p>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column align-items-center">
+                            <h5 class="key-research-h5">77%</h5>
+                            <img class="pie-chart-img" src="images/wn-images/research77.png" alt="">
+                            <p>77% of users would take a test to better understand what wines they like</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wine-section wine-competitive-analysis fluid-container">
+    <div class="section competitive-analysis">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>COMPETITIVE<br>ANALYSIS</h4>
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>COMPETITIVE ANALYSIS</h4>
                 </div>
-                <div class="col-lg-7">
-                    <p>The internet has an array of options for buying wine. I set out to understand if any of these companies were addressing what my research showed to be the most pressing problem––understanding what any given bottle of wine tastes like. <span class="orange-text">I ran a competitive analysis of three popular e-commerce sites: Fresh Direct, Verve Wine, and Winc.</span></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-7">
-                    <p>Fresh Direct is a local NYC food and beverage delivery company. Right from the beginning, the website was not an inviting place to explore and learn about wine. There were no reviews or high-level information on flavor. Poor product photos soured the experience further. However, customers benefit from the one-stop shopping experience since they can buy groceries too. Convenience at its finest.</p>
-                    <p>Verve Wine was founded by Master Sommelier Dustin Wilson. For all its information on wine, there wasn’t an easy to understand product flavor profile. This leaves the assumption that users already know what a riesling or merlot tastes like from Rhone. Once again there were no customer reviews. Verve Wine’s elegant design with intuitive navigation, tagging system, and recommendations was an inspiration for Wine Notes.</p>
-                    <p>The final e-commerce site I explored was Winc, a wine club. Winc doesn’t offer written reviews and users have to commit to their wine club subscription. But if you’re into trying new wines, a wine club could be the way to go! Winc’s product page offered a fantastic flavor profile––by far it’s biggest strength.</p>
-                    <p>These competitors inspired features for Wine Notes while also shining a light on untapped opportunities––opportunities I knew users wanted from my initial research.</p>
-                    <p class="wine-section-link"><a href="" class="wine-section-link">View Competitive Analysis</a></p>
-                </div>
-                <div class="col-lg-5">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>BEHIND THE WINE<br>USER PERSONAS</h4>
-                </div>
-                <div class="col-lg-7">
-                    <p>My three user types were developed based off respondants from my initial surveys.</p>
+                <div class="col-lg-8">
+                    <p class="section-paragraph">The internet has an array of options for buying wine. I set out to understand if any of these companies were addressing what my research showed to be the most pressing problem— understanding what any given bottle of wine tastes like. <span class="orange-text">I ran a competitive analysis of three popular e-commerce sites: Fresh Direct, Verve Wine, and Winc.</span></p>
+                    <div class="competitor-paragraph">
+                        <p class="section-paragraph">Fresh Direct is a local NYC food and beverage delivery company. Right from the beginning, the website was not an inviting place to explore and learn about wine. There were no reviews or high-level information on flavor. Poor product photos soured the experience further. However, customers benefit from the one-stop shopping experience since they can buy groceries too. Convenience at its finest.</p>
+                        <p class="section-paragraph">Verve Wine was founded by Master Sommelier Dustin Wilson. For all its information on wine, there wasn’t an easy to understand product flavor profile. This leaves the assumption that users already know what a riesling or merlot tastes like from Rhone. Once again there were no customer reviews. Verve Wine’s elegant design with intuitive navigation, tagging system, and recommendations was an inspiration for Wine Notes..</p>
+                        <p class="section-paragraph">The final e-commerce site I explored was Winc, a wine club. Winc doesn’t offer written reviews and users have to commit to their wine club subscription. But if you’re into trying new wines, a wine club could be the way to go! Winc’s product page offered a fantastic flavor profile–– by far it’s biggest strength.</p>
+                        <p class="section-paragraph">These competitors inspired features for Wine Notes while also shining a light on untapped opportunities—pportunities I knew users wanted from my initial research. </p>
+                    </div>
+                    <a href="https://docs.google.com/spreadsheets/d/1tXAQ49170m3F7daD26LHbOOvXhKwnjaUgftgWWCbJv0/edit?usp=sharing" target="_blank">View Competitive Analysis</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wine-user-personas fluid-container">
+    <div class="section user-personas">
         <div class="container">
-            <div class="row d-flex flex-row justify-content-between persona-row">
-                <div class="col-lg-4">
-                    <div class="container text-center">
-                        <img src="images/wn-images/persona-maya.png" alt="" class="persona-img">
-                    </div>
-                    <h3 class="text-center persona-name">Newbie,<br> Maya</h3>
-                    <p class="persona-quote">“I must be missing out on wine that I may like simply because I don't see anything more than the wine term it's under.”</p>
-                    <h4 class="persona-age">Age 23, Portland</h4>
-                    <p>Why does Maya drink wine? “Essentially its juice with a kick. It's the best option for those who don't prefer hard liquor.” Maya simply wants to be assured she will like what she buys. She often chooses wine based off of price and the label artwork and never knows if she’s going to like it.</p>
+            <div class="row section-row d-flex flex-row justify-content-between behind-the-wine">
+                <div class="col-lg-3">
+                    <h4>BEHIND THE WINE<BR>USER PERSONAS</h4>
                 </div>
-                <div class="col-lg-4">
-                    <div class="container text-center">
-                        <img src="images/wn-images/persona-avery.png" alt="" class="persona-img">
-                    </div>
-                    <h3 class="text-center persona-name">Exporer,<br> Avery</h3>
-                    <p class="persona-quote">“It would be awesome to buy flights from different countries, new world vs old world, complexity vs balance, cherry vs earthy.”</p>
-                    <h4 class="persona-age">Age 29, San Francisco</h4>
-                    <p>Avery’s not on a website to only buy wine but to also learn. He enjoys getting to know a bottle by exploring its background: wineries, regions, and grapes. He’s looking to refine his palate and wants to try wine based on flavor profiles, balance, sweetness, etc.</p>
-                </div>
-                <div class="col-lg-4">
-                    <div class="container text-center">
-                        <img src="images/wn-images/persona-tara.png" alt="" class="persona-img">
-                    </div>
-                    <h3 class="text-center persona-name">Experienced,<br> Tara</h3>
-                    <p class="persona-quote">“I've learned different characteristics of different regions. It is fun to put your knowledge to the test when tasting wine.”</p>
-                    <h4 class="persona-age">AGE 36, BOSTON</h4>
-                    <p>Tara loves to try new wines and price is not an issue for her––quality and the right match are. She wants the assurance that the wine she’s purchasing will be a pleasure to drink not just for her, but for all her friends she’ll be serving it to.</p>
+                <div class="col-lg-8">
+                    <p class="section-paragraph">My three user types were developed based off respondants from my initial surveys.<br><br> <a href="">View Full Personas</a></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="persona-list">
-                        <p class="persona-list-title">Goals</p>
+                <div class="col-lg-4 persona-column">
+                    <div class="container">
+                        <img class="persona-img" src="images/wn-images/persona-maya.png" alt="">
+                        <h3 class="persona-name">Newbie,<br> Maya</h3>
+                    </div>
+                    <h3 class="persona-quote">“I must be missing out on wine that I may like simply because I don't see anything more than the wine term it's under.”</h3>
+                    <h4 class="persona-age">AGE 23, PORTLAND</h4>
+                    <div class="persona-paragraph-wrapper">
+                        <p>Why does Maya drink wine? “Essentially its juice with a kick. It's the best option for those who don't prefer hard liquor.” Maya simply wants to be assured she will like what she buys. She often chooses wine based off of price and the label artwork and never knows if she’s going to like it.</p>
+                    </div>
+                    <p class="persona-list-title">Goals</p>
+                    <div class="persona-goals-wrapper">
                         <ul>
                             <li>Find an affordable bottle of wine she’ll enjoy the taste of</li>
                             <li>Discover other types of wines to drink</li>
                             <li>Understand the difference between wine types</li>
                         </ul>
                     </div>
-                    <div class="persona-list">
-                        <p class="persona-list-title">Frustrations</p>
+                    <p class="persona-list-title">Frustrations</p>
+                    <div class="persona-frustrations-wrapper">
                         <ul>
                             <li>Hard to filter wines based on taste without an extensive understanding of wine flavors</li>
                             <li>Too many options to choose from would prefer only 1-5</li>
@@ -311,17 +253,26 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="persona-list">
-                        <p class="persona-list-title">Goals</p>
+                <div class="col-lg-4 persona-column">
+                    <div class="container">
+                        <img src="images/wn-images/persona-avery.png" alt="" class="persona-img">
+                        <h3 class="persona-name">Exporer,<br>Avery</h3>
+                    </div>
+                    <h3 class="persona-quote">“It would be awesome to buy flights from different countries, new world vs old world, complexity vs balance, cherry vs earthy.”</h3>
+                    <h4 class="persona-age">AGE 29, SAN FRANCISCO</h4>
+                    <div class="persona-paragraph-wrapper">
+                        <p>Avery’s not on a website to only buy wine but to also learn. He enjoys getting to know a bottle by exploring its background: wineries, regions, and grapes. He’s looking to refine his palate and wants to try wine based on flavor profiles, balance, sweetness, etc.</p>
+                    </div>
+                    <p class="persona-list-title">Goals</p>
+                    <div class="persona-goals-wrapper">
                         <ul>
                             <li>Understand flavor profiles and refine palate</li>
                             <li>Learn about wine regions and grapes</li>
                             <li>Buy wine in flights based on characteristics</li>
                         </ul>
                     </div>
-                    <div class="persona-list">
-                        <p class="persona-list-title">Frustrations</p>
+                    <p class="persona-list-title">Frustrations</p>
+                    <div class="persona-frustrations-wrapper">
                         <ul>
                             <li>Understanding the true quality of a wine</li>
                             <li>Not understanding the flavors he should be looking for when tasting a wine</li>
@@ -329,17 +280,26 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="persona-list">
-                        <p class="persona-list-title">Goals</p>
+                <div class="col-lg-4 persona-column">
+                    <div class="container">
+                        <img src="images/wn-images/persona-tara.png" alt="" class="persona-img">
+                        <h3 class="persona-name">Experienced,<br>Tara</h3>
+                    </div>
+                    <h3 class="persona-quote">“I've learned different characteristics of different regions. It is fun to put your knowledge to the test when tasting wine.”</h3>
+                    <h4 class="persona-age">AGE 36, BOSTON</h4>
+                    <div class="persona-paragraph-wrapper">
+                        <p>Tara loves to try new wines and price is not an issue for her––quality and the right match are. She wants the assurance that the wine she’s purchasing will be a pleasure to drink not just for her, but for all her friends she’ll be serving it to.</p>
+                    </div>
+                    <p class="persona-list-title">Goals</p>
+                    <div class="persona-goals-wrapper">
                         <ul>
                             <li>Consistent high-quality wine</li>
                             <li>Discovering new flavor profiles within familiar wines</li>
                             <li>Knowing the best wines to pair with dinner</li>
                         </ul>
                     </div>
-                    <div class="persona-list">
-                        <p class="persona-list-title">Frustrations</p>
+                    <p class="persona-list-title">Frustrations</p>
+                    <div class="persona-frustrations-wrapper">
                         <ul>
                             <li>Not knowing if she will like wine before she buys it; for example, not all Chardonnays taste the same</li>
                             <li>Local wine shop doesn’t provide pairing information</li>
@@ -348,125 +308,196 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="wine-section-link text-center"><a href="" class="wine-section-link">View Full Personas</a></p>
-                </div>
-            </div>
         </div>
     </div>
-    <div class="wine-discovery fluid-container user-sf">
+    <div class="section information-architecture">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                </div>
-                <div class="col-lg-7">
-                    <div class="orange-line"></div>
-                    <h2>Information Architecture</h2>
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-8">
+                    <div class="section-line"></div>
+                    <h2 class="section-title">Information Architecture</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-5">
-                    <h4>USER STORIES &<br>USER FLOWS</h4>
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>USER STORIES &<BR> USER FLOWS</h4>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-8">
                     <p>My user stories needed to satisfy each of my personas. That meant giving Avery enough information to keep expanding his knowledge, a clear system for Maya to navigate choosing a bottle, and reviews to keep Tara informed. <span class="orange-text">I mapped out my MVP based on goals which I organized by highest to lowest priority.</span> These resulted in the following detailed flows.</p>
-                    <p></p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wine-section wine-flows fluid-container">
+    <div class="section section-light-blue flow">
+        <div class="container text-center">
+            <p class="flow-title">1. As a new/returning customer, I want to browse/filter products</p>
+            <img src="images/wn-images/flow1.png" alt="" class="flow-img">
+            <p class="flow-title">2. As a returning customer, I want to leave a review</p>
+            <img src="images/wn-images/flow2.png" alt="" class="flow-img">
+            <p class="flow-title">3. As a new/returning customer, I want to add an item to cart and checkout</p>
+            <img src="images/wn-images/flow3.png" alt="" class="flow-img">
+        </div>
+    </div>
+    <div class="section wireframes">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p class="flow-title">1. As a new/returning customer, I want to browse/filter products</p>
-                    <img class="flow-img" src="images/wn-images/flow1.png" alt="">
-                    <p class="flow-title">2. As a returning customer, I want to leave a review</p>
-                    <img src="images/wn-images/flow2.png" alt="" class="flow-img">
-                    <p class="flow-title">3. As a new/returning customer, I want to add an item to cart and checkout</p>
-                    <img src="images/wn-images/flow3.png" alt="" class="flow-img">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>WIREFRAMES -<BR> PEN & PAPER</h4>
+                </div>
+                <div class="col-lg-8">
+                    <p>To kick off the design process I sketched out different patterns for my priority user stories with the goal to create my MVP screens. To further speed up the process, I shared design ideas with friends and family to refine my decisions before making them digital. </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wine-section container">
-        <div class="row">
-            <div class="col-lg-5">
-                <h4>WIREFRAMES: PEN & PAPER</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>To kick off the design process I sketched out different patterns for my priority user stories with the goal to create my MVP screens. To further speed up the process, I shared design ideas with friends and family to refine my decisions before making them digital.</p>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="images/wn-images/sketch-category.JPG" alt="">
-        </div>
-        <div class="col-lg-4">
-            <img src="images/wn-images/testing.JPG" alt="">
-        </div>
-        <div class="col-lg-4">
-            <img src="images/wn-images/sketch-rating.JPG" alt="">
-        </div>
-    </div>
-    <div class="wine-section container">
-        <div class="row d-flex flex-row justify-content-between">
-            <div class="col-lg-3">
-                <h4>SELECTING A HOMEPAGE DESIGN</h4>
-                <h3>Never too early for a preference test :)</h3>
-            </div>
-            <div class="col-lg-7">
-                <p>I had two different ideas for the landing page, one highlighted popular content people told me they looked for––best sellers and recommendations based on occasion. The other took users through a quick flavor preference test to then recommend wines. It was preference test time!</p>
-                <p>After 19 respondents, version one was winning by 58%. Even though that’s not statistically significant, people’s reasons for choosing it were strong. I moved forward with version one.</p>
-            </div>
-        </div>
-    </div>
-    <div class="wine-section wine-vs fluid-container">
+    <div class="section wireframe-photos">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5 d-flex flex-column align-items-center">
-                    <img src="images/wn-images/v1.png" alt="">
-                    <p>Popular content focused</p>
-                    <img src="images/wn-images/test1-1.png" alt="">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="col-lg-4">
+                    <img src="images/wn-images/sketch-category.jpg" alt="" class="wireframe-img">
                 </div>
-                <div class="col-lg-1">vs</div>
-                <div class="col-lg-5 d-flex flex-column align-items-center">
-                    <img src="images/wn-images/v2.png" alt="">
-                    <p>Testing focused</p>
-                    <img src="images/wn-images/test1-2.png" alt="">
+                <div class="col-lg-4">
+                    <img src="images/wn-images/testing.JPG" alt="" class="wireframe-img">
+                </div>
+                <div class="col-lg-4">
+                    <img src="images/wn-images/sketch-rating.JPG" alt="" class="wireframe-img">
                 </div>
             </div>
         </div>
     </div>
-    <div class="wine-section wine-low-fidelity-wireframes container">
-        <h1 class="text-center ttaker-quote">“I love how the categories are right there when you open the page. And if I'm not interested, my natural curiosity brought me to scroll down to Best Sellers. I also liked the top bar menu here better to the other one, it was cleaner and more organized.” – preference test taker</h1>
-        <div class="row d-flex flex-row justify-content-between">
-            <div class="col-lg-3">
-                <h4>LOW FIDELITY WIREFRAMES</h4>
-            </div>
-            <div class="col-lg-7">
-                <p>My initial user surveys gave me insights into the highest ranked information shoppers want to see at a glance: product image, price, rating. With so many different ways to filter and sort wine, I explored different navigation patterns.</p>
-                <p>The product page is where Wine Notes really shined and differentiated itself from its competitors. The flavor profile is broken down and explained through both text and image. Reviews are easy to read and give from the product page.</p>
-                <p>It was time to put my ideas to the test. Using my low fidelity wireframes I conducted both in-person interviews and collected quantitative data using maze.design.</p>
-                <p class="wine-section-link"><a href="">View Low Fidelity Prototype</a></p>
+    <div class="section selecting-homepage-design">
+        <div class="container">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>SELECTING A<BR> HOMEPAGE DESIGN</h4>
+                    <h5>Never too early for a preference test :)</h5>
+                </div>
+                <div class="col-lg-8">
+                    <p>I had two different ideas for the landing page, one highlighted popular content people told me they looked for––best sellers and recommendations based on occasion. The other took users through a quick flavor preference test to then recommend wines. It was preference test time!</p>
+                    <p>After 19 respondents, version one was winning by 58%. Even though that’s not statistically significant, people’s reasons for choosing it were strong. I moved forward with version one.</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="wine-section wine-low-fidelity-parallax fluid-container"></div>
-
-
-
-
-
-
+    <div class="section section-light-blue homepage-wireframes">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-column">
+                    <img src="images/wn-images/v1.png" alt="" class="v-img">
+                    <p class="wireframe-title">Popular content focused</p>
+                    <img src="images/wn-images/test1-1.png" alt="" class="wireframe-web-img">
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center justify-content-top homepage-wireframes-column">
+                    <h5>vs</h5>
+                </div>
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-column">
+                    <img src="images/wn-images/v2.png" alt="" class="v-img">
+                    <p class="wireframe-title">Testing focused</p>
+                    <img src="images/wn-images/test1-2.png" alt="" class="wreframe-web-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="col-lg-10 d-flex flex-column align-items-center justify-content-center">
+                    <h2 id="test-taker-quote">“I love how the categories are right there when you open the page. And if I'm not interested, my natural curiosity brought me to scroll down to Best Sellers. I also liked the top bar menu here better to the other one, it was cleaner and more organized.” – preference test taker</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section low-fidelity-wireframes">
+        <div class="container">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>LOW FIDELITY<br>WIREFRAMES</h4>
+                </div>
+                <div class="col-lg-8">
+                    <p>My initial user surveys gave me insights into the highest ranked information shoppers want to see at a glance: product image, price, rating. With so many different ways to filter and sort wine, I explored different navigation patterns.</p>
+                    <p>The product page is where Wine Notes really shined and differentiated itself from its competitors. The flavor profile is broken down and explained through both text and image. Reviews are easy to read and give from the product page.</p>
+                    <p>It was time to put my ideas to the test. Using my low fidelity wireframes I conducted both in-person interviews and collected quantitative data using maze.design.</p>
+                    <a href="https://www.figma.com/proto/cMTrSXfAM6wGQvwl1ny855yt/Wine-Shop-Wireframes?node-id=73%3A2&scaling=min-zoom" target="_blank">View Low Fidelity Prototype</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section low-fidelity-parallax fluid-container"></div>
+    <div class="section testing-lofi-wireframes">
+        <div class="container">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>TESTING LOFI<br>WIREFRAMES</h4>
+                    <h5 class="section-left-subtitle">Refine giving<br>a review</h5>
+                </div>
+                <div class="col-lg-8">
+                    <p>
+                        <span class="orange-text">I assumed that keeping the ability to leave a review on the product page would be a “lighter” and easier experience than needing to creating an account. I was wrong.</span>
+                    </p>
+                    <p>I found that 80% of test takers wanted to log into an account to leave a review. Even more cumbersome—some test-takers backtracked through every step they had previously taken to checkout in order to locate the wine they wanted to review. I needed to pivot from my original design.</p>
+                    <p>I went back and sketched out a new onboarding experience and account page. From here users could directly view previous orders and leave reviews. <span class="orange-text">Lesson learned: people leave reviews from their account page, not a product page.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-light-blue homepage-wireframes-review">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-column">
+                    <img src="images/wn-images/v1.png" alt="" class="v-img-small">
+                    <p class="wireframe-title">Review from product page</p>
+                    <img src="images/wn-images/review1.png" alt="" class="wireframe-web-img">
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center justify-content-top homepage-wireframes-column">
+                    <h5>vs</h5>
+                </div>
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-column">
+                    <img src="images/wn-images/v2.png" alt="" class="v-img-small">
+                    <p class="wireframe-title">Review from account dashboard</p>
+                    <img src="images/wn-images/review2.png" alt="" class="wreframe-web-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section testing-lofi-wireframes">
+        <div class="container">
+            <div class="row section-row d-flex flex-row justify-content-between">
+                <div class="col-lg-3">
+                    <h4>TESTING LOFI<br>WIREFRAMES</h4>
+                    <h5 class="section-left-subtitle">Refine<br>checking out</h5>
+                </div>
+                <div class="col-lg-8">
+                    <p>Friction also popped up as test takers moved through checkout. I thought I was being clever by including 3 screens in one for checkout. As people moved through inputting their information, next buttons were supposed to appear indicating it was time to move to the next section. This was lost on people. Users tried jumping ahead to shipping before completing billing. To ease the cognitive load I reduced the transparency on all inactive fields. I also added an inactive “next” button from the very start to help show when it was time to move on.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section-light-blue homepage-wireframes-review">
+        <div class="container">
+            <div class="row d-flex flex-row justify-content-between">
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-column">
+                    <img src="images/wn-images/v1.png" alt="" class="v-img-small">
+                    <p class="wireframe-title">All sessions active & no next button</p>
+                    <img src="images/wn-images/checkout-active.png" alt="" class="wireframe-web-img">
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center justify-content-top homepage-wireframes-column">
+                    <h5>vs</h5>
+                </div>
+                <div class="col-lg-5 d-flex flex-column align-items-center homepage-wireframes-columns">
+                    <img src="images/wn-images/v2.png" alt="" class="v-img-small">
+                    <p class="wireframe-title">Review from account dashboard</p>
+                    <img src="images/wn-images/checkout-winner.png" alt="" class="wreframe-web-img">
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/wine.js"></script>
 </body>
-
 </html>
