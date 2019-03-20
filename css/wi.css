@@ -53,9 +53,12 @@ ul, li {
 }
 
 .section {
-    padding: 4em 0;
+    padding: 3em 0;
 }
 
+.section-row {
+    margin: 1.5em 0;
+}
 .section-header {
     margin: 1em 0;
 }
@@ -208,7 +211,7 @@ nav ul {
 
 
 /*****************************************************************************
-********                            DISCOVERY                       **********
+********                         Key Research                       **********
 *****************************************************************************/
 #key-research-h3 {
     margin-bottom: 2em;
@@ -240,6 +243,57 @@ nav ul {
     margin-bottom: 2em;
 }
 
+.competition-logo {
+    margin-bottom: 4em;
+}
+
+/*****************************************************************************
+********                            BRANDING                       **********
+*****************************************************************************/
+.branding .section-line {
+    margin: 0 auto;
+}
+.parallax-branding {
+    background: url('../images/wn-images/parallax-branding.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.branding-emphasized-paragraph {
+    font-weight: bold;
+    font-size: 2.3em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.branding-img {
+    margin: 5px 0;
+}
+
+.branding-container {
+    position: relative;
+}
+.branding-horizontal {
+    max-width: 710px;
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+}
+#logo5 {
+    height: 177px;
+}
+
+.branding-final-img {
+    max-width: 50%;
+}
+
+#final-product-video {
+    width: 100%;
+    height: 100vh;
+}
 /*****************************************************************************
 ********                            PERSONAS                       **********
 *****************************************************************************/
@@ -272,6 +326,9 @@ nav ul {
     height: 130px;
 }
 
+.persona-frustrations-wrapper {
+    height: 200px;
+}
 p.persona-list-title:nth-of-type(2) {
     margin-top: 2em;
 }
@@ -356,7 +413,72 @@ p.persona-list-title:nth-of-type(2) {
     border: 3px solid #0B0033;
     transition: .5s all;
 }
+/* FOOTER SECTION */
+.footer-section p {
 
+}
+.footer-links p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section h2, .footer-section h5, .footer-section p, .footer-section h4 {
+    color: #F7B18F !important;
+}
+.footer-section h4 {
+    font-weight: normal;
+    margin: 34px 0;
+}
+.footer-section {
+    background: #0B0033;
+    color: #F7B18F !important;
+    padding: 3em 0;
+}
+
+.footer-section h5 {
+    margin: 36px 0;
+    letter-spacing: 3.55px;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-content a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-return {
+    margin: 60px 0 100px;
+}
+#return-top {
+    font-size: 1.2em;
+    color: #5386E4;
+}
+#return-top i {
+    transition: all 0.5s ease;
+}
+.contact-icons {
+    font-size: 2em;
+    text-align: right;
+}
+
+.footer-icon {
+    color: #F7B18F;
+}
+
+.footer-icon:not(:nth-of-type(1)) {
+    margin-left: 3rem;
+}
+
+#back-top {
+    color: #5386E4 !important;
+}
 
 
 
@@ -433,6 +555,9 @@ p.persona-list-title:nth-of-type(2) {
         height: auto;
         width: 100%;
         margin: 0.5em;
+    }
+    .contact-icons {
+        text-align: center !important;
     }
 
 }
