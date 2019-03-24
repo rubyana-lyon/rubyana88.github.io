@@ -1,0 +1,592 @@
+/*****************************************************************************
+********                            GENERAL CSS                    **********
+*****************************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h5, h6 {
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #0B0033;
+    font-weight: bold;
+}
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 22px;
+    letter-spacing: 3.55556px;
+    text-transform: uppercase;
+    color: #F05D5E;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #0B0033;
+}
+
+a {
+    color: #5386E4;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 3em 0;
+}
+
+.section-row {
+    margin: 1.5em 0;
+}
+.section-line {
+    border-top: 2px solid #F05D5E;
+    width: 10%;
+}
+.section-title {
+    padding-top: 10px;
+}
+.section-paragraph {
+    margin-right: 30px;
+}
+.orange-text {
+    color: #F05D5E;
+    font-weight: bold;
+}
+.section-dark-bg {
+    background: #0B0033;
+}
+
+.section-dark-bg h3, .section-dark-bg h5, .section-dark-bg p {
+    color: #fff;
+}
+
+.section-light-blue {
+    background: #bbd0f3
+}
+nav {
+    transition: 0.5s ease;
+}
+nav a {
+    font-weight: normal;
+}
+
+nav ul {
+    text-align: center;
+}
+.nav-item:not(:nth-of-type(3)) {
+    margin-right: 0.5em;
+}
+.nav-item.active .nav-link{
+    color: #F05D5E !important;
+    font-weight: bold;
+}
+.nav-link {
+    font-size: 0.8rem;
+}
+.nav-scrolled {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.vs-h5 {
+    margin-top: 4em;
+}
+/*****************************************************************************
+********                         hero header                        **********
+*****************************************************************************/
+.hero-wrapper {
+    overflow: hidden;
+
+}
+.hero-header {
+    position: relative;
+    background: #bbd0f3;
+    padding-top: 120px;
+    height: 1250px;
+}
+
+#hero-logo {
+    max-width: 150px;
+    margin-bottom: 100px;
+}
+#lemon {
+    top: 100px;
+    left: -100px;
+}
+
+#hero-mockup {
+    position: absolute;
+    max-width: 900px;
+    bottom: 40px;
+    z-index: 1;
+}
+#grapefruit {
+    top: 300px;
+    right: -100px;
+}
+.absolute-img {
+    position: absolute;
+}
+
+.hero-submenu {
+    position: absolute;
+    bottom: 0;
+    background: #5386E4;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    z-index: 2;
+}
+.hero-submenu li {
+    float: left;
+}
+.hero-submenu li:not(:nth-last-of-type(1)) {
+    margin-right: 4em;
+}
+.hero-submenu li a {
+    color: #fff;
+    padding: 10px;
+}
+
+/*****************************************************************************
+********                  meet wine notes section                   **********
+*****************************************************************************/
+.meet-wine-notes {
+    position: relative;
+    margin-top: 3em;
+}
+#leaf {
+    max-width: 150px;
+    left: 50px;
+    top: 70px;
+}
+
+#duration-role-tools-div {
+    margin-top: 3em;
+    width: 100%;
+}
+
+/*****************************************************************************
+********                             OVERVIEW                       **********
+*****************************************************************************/
+
+.section-solution-row {
+    margin-top: 3em;
+    padding-bottom: 3em;
+}
+
+.parallax-overview {
+    height: 100vh;
+    background: url('../images/parallax-one.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*****************************************************************************
+********                            DISCOVERY                       **********
+*****************************************************************************/
+#discovery-question-title, #what-started-paragraph {
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.discovery-questions:not(:nth-last-of-type(1)) {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*****************************************************************************
+********                         Key Research                       **********
+*****************************************************************************/
+#key-research-h3 {
+    margin-bottom: 2em;
+}
+.key-research-h5 {
+    color: #F7B18F !important;
+    margin-bottom: 2em;
+}
+.key-research-icon {
+    font-size: 4em;
+    color: #F7B18F;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+.key-research-icon-text {
+    font-size: 2.4em;
+}
+.key-research-paragraph {
+    margin-bottom: 2em;
+}
+
+.pie-chart-div {
+    margin-top: 4em;
+}
+
+.pie-chart-img {
+    max-width: 10em;
+    margin-bottom: 2em;
+}
+
+.competition-logo {
+    margin-bottom: 4em;
+}
+
+/*****************************************************************************
+********                            BRANDING                       **********
+*****************************************************************************/
+.branding .section-line {
+    margin: 0 auto;
+}
+
+#branding {
+    padding: 6em 0;
+}
+.parallax-branding {
+    background: url('../images/wn-images/parallax-branding.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.branding-emphasized-paragraph {
+    font-weight: bold;
+    font-size: 2.3em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+.branding-img {
+    margin: 5px 0;
+}
+
+.branding-container {
+    position: relative;
+}
+.branding-horizontal {
+    max-width: 710px;
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+}
+#logo5 {
+    height: 177px;
+}
+
+.branding-final-img {
+    max-width: 50%;
+}
+
+#final-product-video {
+    width: 100%;
+    height: 100vh;
+}
+/*****************************************************************************
+********                            PERSONAS                       **********
+*****************************************************************************/
+.persona-name {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.persona-quote {
+    font-size: 1.2em;
+}
+
+.persona-age {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.persona-paragraph-wrapper {
+    height: 200px;
+}
+.persona-list-title {
+    font-weight: bold;
+}
+
+.user-personas ul {
+    padding-left: 40px;
+}
+
+.persona-goals-wrapper {
+    height: 130px;
+}
+
+.persona-frustrations-wrapper {
+    height: 200px;
+}
+p.persona-list-title:nth-of-type(2) {
+    margin-top: 2em;
+}
+
+/*****************************************************************************
+********                    INFORMATION ARCHITECTURE                **********
+/****************************************************************************/
+
+.flow-title {
+    font-weight: bold;
+    margin: 4em 0;
+}
+
+.flow-img:nth-of-type(3) {
+    max-width: 80%;
+}
+/*****************************************************************************
+********                            WIREFRAMES                     **********
+/****************************************************************************/
+
+.wireframe-img {
+    max-height: 450px;
+}
+
+.v-img {
+    max-width: 36px;
+}
+
+.wireframe-title {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin: 2em 0;
+}
+
+#test-taker-quote {
+    font-size: 2em;
+}
+
+.low-fidelity-parallax {
+    height: 100vh;
+    background: url('../images/parallax-two.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*****************************************************************************
+********                    TESTING LOFI WIREFRAMES                 **********
+/****************************************************************************/
+
+.v-img-small {
+    max-width: 36px;
+}
+
+
+/*****************************************************************************
+********                             buttons                        **********
+*****************************************************************************/
+
+.custom-btn {
+    border: 3px solid #5386E4;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+    color: #0B0033;
+    text-align: center;
+    padding: 0.5rem 3rem;
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    margin: 2em 0;
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 3px solid #0B0033;
+    transition: .5s all;
+}
+/* FOOTER SECTION */
+/* .footer-section p {
+
+} */
+.footer-links p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section h2, .footer-section h5, .footer-section p, .footer-section h4 {
+    color: #F7B18F !important;
+}
+.footer-section h4 {
+    font-weight: normal;
+    margin: 34px 0;
+}
+.footer-section {
+    background: #0B0033;
+    color: #F7B18F !important;
+    padding: 3em 0;
+}
+
+.footer-section h5 {
+    margin: 36px 0;
+    letter-spacing: 3.55px;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-content a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-return {
+    margin: 60px 0 100px;
+}
+#return-top {
+    font-size: 1.2em;
+    color: #5386E4;
+}
+#return-top i {
+    transition: all 0.5s ease;
+}
+.contact-icons {
+    font-size: 2em;
+    text-align: right;
+}
+
+.footer-icon {
+    color: #F7B18F;
+}
+
+.footer-icon:not(:nth-of-type(1)) {
+    margin-left: 3rem;
+}
+
+#back-top {
+    color: #5386E4 !important;
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************************
+********                            MEDIA QUERIES                   **********
+*****************************************************************************/
+
+@media (min-width: 320px) and (max-width: 500px) {
+    body {
+        text-align: center;
+    }
+    .vs-h5 {
+        margin: 2em 0 !important;
+    }
+    #leaf {
+        top: 30px;
+        left: 20px;
+        max-width: 100px;
+    }
+    .hero-submenu li {
+        display: block;
+        float: none;
+        padding: 10px;
+    }
+    .hero-submenu li:not(:nth-last-of-type(1)) {
+        margin-right: 0;
+        float: none;
+    }
+    #duration-role-tools-div .col-lg-3 {
+        margin: 1em;
+    }
+    .section-line {
+        margin: 0 auto;
+    }
+    .section-left-subtitle {
+        margin-bottom: 1em;
+    }
+    .key-research-h5 {
+        margin-top: 2em;
+    }
+    .pie-chart-div {
+        margin-top: 3em;
+    }
+    .behind-the-wine {
+        margin-bottom: 3em;
+    }
+    .persona-goals-wrapper, .persona-frustrations-wrapper, .persona-paragraph-wrapper {
+        height: auto;
+    }
+    .persona-goals-wrapper ul, .persona-frustrations-wrapper ul {
+        text-align: left;
+    }
+    .persona-column {
+        margin-bottom: 2em;
+    }
+    .persona-list-title {
+        margin: 1em 0;
+    }
+
+    .homepage-wireframes-column {
+        margin: 2em;
+    }
+
+    #test-taker-quote {
+        font-size: 1.5em;
+    }
+    .discovery-questions {
+        text-align: center;
+    }
+    .wireframe-img {
+        height: auto;
+        width: 100%;
+        margin: 0.5em;
+    }
+    .contact-icons {
+        text-align: center !important;
+    }
+    .branding-horizontal {
+        display: none;
+    }
+    #hero-mockup {
+        width: 400px;
+        bottom: 290px;
+    }
+    #grapefruit, #lemon {
+
+        width: 50px;
+    }
+    body > div.section.overview > div > div:nth-child(2) > div.col-lg-4.order-last.order-md-last.order-lg-first {
+        text-align: center;
+    }
+}

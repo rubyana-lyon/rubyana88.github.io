@@ -11,21 +11,21 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #0B0033;
 }
-
+h1, h2, h3, h6 {
+    font-family: 'Frank Ruhl Libre', serif;
+}
 h1, h6 {
-    font-family: Frank Ruhl Libre Black, serif;
     font-style: normal;
     font-weight: 900;
     font-size: calc(1rem + 5vmin);
     letter-spacing: 1px;
 }
 h2 {
-    font-family: 'Frank Ruhl Libre', serif;
     font-weight: bold;
     font-size: 1.8em;
 }
 
-h3 {font-family: Frank-Ruhl-Libre, serif;
+h3 {
     color: #0B0033;
     font-style: normal;
     font-weight: bold;
@@ -172,7 +172,7 @@ img {
 *********************************************************************************/
 .overview-parallax {
     height: 100vh;
-    background: url('../images/parallax-test.PNG');
+    background: url('../images/parallax-one.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -297,17 +297,22 @@ i {
     max-width: 70%;
 }
 
+.penpaper-img {
+    max-height: 500px;
+}
 /*********************************************************************************
 **************                  WINE SECTION: WINE VS              ************
 *********************************************************************************/
-
+#nevertooearly {
+    line-height: 1;
+}
 .wine-vs {
     background: #bbd0f3;
 }
 
 .wine-low-fidelity-parallax {
     height: 100vh;
-    background: url('../images/parallax-test-2.PNG');
+    background: url('../images/parallax-two.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
