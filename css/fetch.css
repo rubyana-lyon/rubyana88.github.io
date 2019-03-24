@@ -124,6 +124,7 @@ nav ul {
 
 .vs-h5 {
     margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 /*****************************************************************************
 ********                            HERO HEADER                    **********
@@ -197,7 +198,7 @@ nav ul {
     padding-left: 20px;
 }
 .parallax-overview {
-    background: url('../images/fetch-imgs/parallax-overview.png');
+    background: url('../images/fetch-imgs/parallax-img-compressed.png');
 }
 .parallax {
     background-attachment: fixed;
