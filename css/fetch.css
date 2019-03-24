@@ -1,0 +1,480 @@
+/*****************************************************************************
+********                            GENERAL CSS                    **********
+*****************************************************************************/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h5, h6 {
+    font-family: 'Frank Ruhl Libre', serif;
+    color: #0B0033;
+    font-weight: bold;
+}
+h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 22px;
+    letter-spacing: 3.55556px;
+    text-transform: uppercase;
+    color: #F05D5E;
+}
+p, li {
+    font-family: 'Poppins', sans-serif;
+    color: #0B0033;
+}
+
+a {
+    color: #5386E4;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 4em 0;
+}
+
+.section-line {
+    border-top: 2px solid #F05D5E;
+    margin-bottom: 10px;
+    width: 10%;
+}
+
+.section-heading, .section-row:not(:nth-of-type(1)) {
+    margin-bottom: 2em;
+}
+.section-light-blue {
+    background: #bbd0f3;
+}
+.section-mid-blue {
+    background: #5386E4;
+}
+.section-dark-blue {
+    background: #0B0033;
+}
+
+#overview-ul {
+    margin-left: 40px;
+}
+.ordered-list {
+    padding: 0 20px;
+}
+.ordered-list p {
+    margin-left: 20px;
+}
+
+nav {
+    transition: 0.5s ease;
+}
+nav a {
+    font-weight: normal;
+}
+
+nav ul {
+    text-align: center;
+}
+.nav-item:not(:nth-of-type(3)) {
+    margin-right: 0.5em;
+}
+.nav-item.active .nav-link{
+    color: #F05D5E !important;
+    font-weight: bold;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 0.8rem;
+}
+.nav-link a {
+    color: #fff !important;
+}
+.nav-scrolled {
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    color: #0B0033 !important;
+}
+
+.nav-scrolled .nav-link {
+    color: #0B0033 !important;
+}
+.mobile {
+    display: none;
+}
+
+.vs-h5 {
+    margin-top: 40px;
+}
+/*****************************************************************************
+********                            HERO HEADER                    **********
+*****************************************************************************/
+.hero-header {
+    background: #0B0033;
+    padding-top: 4em;
+    padding-bottom: 0;
+}
+
+#hero-logo {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    max-width: 55%;
+}
+.hero-header h1 {
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 100px;
+}
+
+.lowered-img {
+    margin-top: 100px;
+}
+.hero-imgs {
+    margin-bottom: 6em;
+}
+
+.hero-img {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+}
+.hero-submenu {
+    background: #5386E4;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 2;
+}
+.hero-submenu li {
+    float: left;
+}
+.hero-submenu li:not(:nth-last-of-type(1)) {
+    margin-right: 4em;
+}
+.hero-submenu li a {
+    color: #fff;
+    padding: 10px;
+}
+
+/*****************************************************************************
+********                            MEET FETCH                      **********
+*****************************************************************************/
+
+.meet-fetch .section-line {
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.meet-fetch .custom-btn {
+    margin: 2em auto;
+}
+
+
+/*****************************************************************************
+********                            OVERVIEW                        **********
+*****************************************************************************/
+
+
+#overview-ol li {
+    margin-bottom: 1em;
+    padding-left: 20px;
+}
+.parallax-overview {
+    background: url('../images/fetch-imgs/parallax-overview.png');
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*****************************************************************************
+********                            DISCOVERY                       **********
+*****************************************************************************/
+.persona-name {
+    margin: 2em 0;
+}
+
+.persona-quote {
+    height: 200px;
+}
+
+.persona-age {
+    margin-bottom: 1em;
+}
+
+/*****************************************************************************
+********                            DISCOVERY                       **********
+*****************************************************************************/
+.user-flow {
+    margin: 4em 0;
+}
+.v-img {
+    max-width: 36px;
+    margin: 1em 0 3em;
+}
+
+iframe {
+    height: 600px;
+}
+
+
+.parallax-med-rec {
+    height: 100vh;
+    background: url('../images/fetch-imgs/health-record-group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.parallax-reminder-group {
+    height: 100vh;
+    background: url('../images/fetch-imgs/reminder-group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-pet-group {
+    height: 100vh;
+    background: url('../images/fetch-imgs/pet-profile-group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-health-rec {
+    height: 100vh;
+    background: url('../images/fetch-imgs/medical-group.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*****************************************************************************
+********                            FOOTER                          **********
+*****************************************************************************/
+.footer-links p {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section h2, .footer-section h5, .footer-section p, .footer-section h4 {
+    color: #F7B18F !important;
+}
+.footer-section h4 {
+    font-weight: normal;
+    margin: 34px 0;
+}
+.footer-section {
+    background: #0B0033;
+    color: #F7B18F !important;
+    padding: 3em 0;
+}
+
+.footer-section h5 {
+    margin: 36px 0;
+    letter-spacing: 3.55px;
+    font-weight: 300;
+    font-size: 0.95em;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.footer-content a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-return {
+    margin: 60px 0 100px;
+}
+#return-top {
+    font-size: 1.2em;
+    color: #5386E4;
+}
+#return-top i {
+    transition: all 0.5s ease;
+}
+.contact-icons {
+    font-size: 2em;
+    text-align: right;
+}
+
+.footer-icon {
+    color: #F7B18F;
+}
+
+.footer-icon:not(:nth-of-type(1)) {
+    margin-left: 3rem;
+}
+
+#back-top {
+    color: #5386E4 !important;
+}
+
+/*****************************************************************************
+********                                BUTTONS                     **********
+*****************************************************************************/
+
+.custom-btn {
+    border: 3px solid #5386E4;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3.55556px;
+    color: #0B0033;
+    text-align: center;
+    padding: 0.5rem 3rem;
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    margin: 2em 0;
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 3px solid #0B0033;
+    transition: .5s all;
+}
+
+/*****************************************************************************
+********                            MEDIA QUERIES                   **********
+*****************************************************************************/
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .mobile {
+        display: block;
+    }
+    nav {
+        background: #fff;
+        color: #0B0033;
+    }
+    .nav-link {
+        color: #0B0033 !important;
+    }
+    .hero-p {
+        color: #fff;
+        font-size: 2em;
+        margin-bottom: 60px;
+    }
+    .hero-imgs {
+        display: none;
+    }
+    .hero-mobile-imgs {
+        margin-bottom: 60px;
+    }
+    .hero-img {
+        margin: 1em 0;
+    }
+    .lowered-img {
+        margin-top: 4em;
+    }
+    #hero-h1 {
+        display: none;
+    }
+
+    #hero-logo {
+        margin: 60px 0;
+
+    }
+    .hero-submenu li {
+        display: block;
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+    .hero-submenu li:not(:nth-last-of-type(1)) {
+        margin-right: 0;
+        float: none;
+    }
+    .section-heading, .section h4, .the-designer {
+        text-align: center;
+    }
+    .section-line {
+        margin: 0 auto;
+    }
+    .section h4 {
+        margin-bottom: 2em;
+    }
+    .persona-quote {
+        height: auto;
+        margin-bottom: 2em;
+    }
+    .persona-age {
+        text-align: left;
+    }
+    .full-persona-link {
+        margin: 2em 0;
+    }
+    .the-designer h4 {
+        margin-top: 2em;
+    }
+    .persona-age {
+        text-align: left !important;
+    }
+    .ia-flows {
+        display: none;
+    }
+    .branding {
+        padding-top: 0;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .h5-subheader {
+        text-align: center;
+        margin: 1em 0;
+    }
+    .section.medical-record-videos {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .wireframe-title {
+        text-align: center;
+    }
+    .vs-h5 {
+        margin: 1em 0;
+    }
+    iframe {
+        max-width: 100%;
+        height: 300px;
+    }
+    .contact-icons {
+        text-align: center !important;
+    }
+}

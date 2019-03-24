@@ -30,3 +30,7 @@ $('#winenotes-btn').on('click', function() {
 $('#ruby-btn').on('click', function() {
   document.location.href = 'about.html';
 })
+
+$('#fetch-btn').on('click', function() {
+  document.location.href = 'fetch.html';
+})

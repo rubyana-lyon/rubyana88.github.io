@@ -586,4 +586,7 @@ p.persona-list-title:nth-of-type(2) {
 
         width: 50px;
     }
+    body > div.section.overview > div > div:nth-child(2) > div.col-lg-4.order-last.order-md-last.order-lg-first {
+        text-align: center;
+    }
 }
