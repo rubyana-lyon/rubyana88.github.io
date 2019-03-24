@@ -200,6 +200,7 @@ nav ul {
     letter-spacing: 3.55556px;
     text-align: center;
     display: block;
+    width: 100%;
 }
 
 .custom-btn:hover {
@@ -237,6 +238,11 @@ nav ul {
     }
     .footer-links {
         text-align: center !important;
+    }
+    .custom-btn {
+        line-height: 20px;
+        padding: 1em;
+        font-size: 0.5em;
     }
 }
 

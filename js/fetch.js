@@ -22,3 +22,6 @@ $(document).ready(function(){
     }
   });
 });
+$('.custom-btn').on('click', function() {
+  document.location.href = "https://www.figma.com/proto/DcsOrWQrIgHktiFsQGMWTXrl/Fetch-Wireframes?node-id=0%3A1&scaling=scale-down";
+})
