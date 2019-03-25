@@ -478,4 +478,7 @@ iframe {
     .contact-icons {
         text-align: center !important;
     }
+    .parallax, .parallax-med-rec, .parallax-health-rec, .parallax-reminder-group, .parallax-pet-group {
+        background-attachment: initial;
+    }
 }
