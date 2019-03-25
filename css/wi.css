@@ -589,4 +589,7 @@ p.persona-list-title:nth-of-type(2) {
     body > div.section.overview > div > div:nth-child(2) > div.col-lg-4.order-last.order-md-last.order-lg-first {
         text-align: center;
     }
+    .parallax-overview, .parallax-branding, .low-fidelity-parallax {
+        background-attachment: initial;
+    }
 }
