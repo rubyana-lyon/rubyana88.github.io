@@ -280,7 +280,14 @@ iframe {
     margin: 0;
     padding: 0;
 }
-
+#lets-make-something-awesome {
+    background: linear-gradient(to right,#F7BA8F,#CC7C92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 1em;
+}
 .footer-section h2, .footer-section h5, .footer-section p, .footer-section h4 {
     color: #F7B18F !important;
 }
