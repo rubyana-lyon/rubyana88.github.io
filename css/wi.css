@@ -110,7 +110,8 @@ nav ul {
 }
 
 .vs-h5 {
-    margin-top: 4em;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 /*****************************************************************************
 ********                         hero header                        **********
@@ -228,6 +229,7 @@ nav ul {
 .key-research-h5 {
     color: #F7B18F !important;
     margin-bottom: 2em;
+    font-size: 2.4em;
 }
 .key-research-icon {
     font-size: 4em;
@@ -405,16 +407,15 @@ p.persona-list-title:nth-of-type(2) {
 .custom-btn {
     border: 3px solid #5386E4;
     border-radius: 40px;
-    text-transform: uppercase;
+    font-family: Poppins;
+    font-style: normal;
     font-weight: bold;
-    letter-spacing: 3.55556px;
-    color: #0B0033;
-    text-align: center;
+    font-size: 16px;
     padding: 0.5rem 3rem;
-    display: block;
-    margin: 0 auto;
     background: transparent;
-    margin: 2em 0;
+    display: block;
+    text-align: center;
+    margin: 2em auto;
 }
 
 .custom-btn:hover {
@@ -494,7 +495,10 @@ p.persona-list-title:nth-of-type(2) {
 }
 
 
-
+.ia-user-story {
+    padding-left: 0;
+    margin-left: 0;
+}
 
 
 
@@ -513,7 +517,7 @@ p.persona-list-title:nth-of-type(2) {
         margin: 2em 0 !important;
     }
     #leaf {
-        top: 30px;
+        top: -40px;
         left: 20px;
         max-width: 100px;
     }

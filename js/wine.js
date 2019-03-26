@@ -22,5 +22,8 @@ $(document).ready(function(){
   });
 
   $('.custom-btn').on('click', function() {
-        document.location.href = "https://www.figma.com/proto/KuVtHPH9102GPz051L0Qxq/Wine-Notes?node-id=436%3A5334&scaling=min-zoom";
+    window.open(
+      'https://www.figma.com/proto/KuVtHPH9102GPz051L0Qxq/Wine-Notes?node-id=436%3A5334&scaling=min-zoom',
+      '_blank'
+    );
   })

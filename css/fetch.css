@@ -142,7 +142,6 @@ nav ul {
 }
 .hero-header h1 {
     color: #fff;
-    font-size: 3.5em;
     margin-bottom: 100px;
 }
 
@@ -245,7 +244,6 @@ iframe {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 
@@ -255,7 +253,6 @@ iframe {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .parallax-pet-group {
@@ -264,7 +261,6 @@ iframe {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .parallax-health-rec {
@@ -273,7 +269,6 @@ iframe {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 
@@ -351,16 +346,15 @@ iframe {
 .custom-btn {
     border: 3px solid #5386E4;
     border-radius: 40px;
-    text-transform: uppercase;
+    font-family: Poppins;
+    font-style: normal;
     font-weight: bold;
-    letter-spacing: 3.55556px;
-    color: #0B0033;
-    text-align: center;
+    font-size: 16px;
     padding: 0.5rem 3rem;
-    display: block;
-    margin: 0 auto;
     background: transparent;
-    margin: 2em 0;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .custom-btn:hover {

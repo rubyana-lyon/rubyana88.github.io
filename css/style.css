@@ -186,7 +186,33 @@ nav ul {
     margin-left: 3rem;
 }
 /* BUTTONS */
+
 .custom-btn {
+    border: 3px solid #0B0033;
+    border-radius: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0.5rem 3rem;
+    background: transparent;
+    display: block;
+    text-align: center;
+    margin: 2em auto;
+    width: 100%;
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(to right, #F05D5E 0%, #F05D5E 51%, #F05D5E 100%);
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    border: 3px solid #0B0033;
+    transition: .5s all;
+
+}
+/* .custom-btn {
     border: 2px solid #0B0033;
     border-radius: 40px;
     text-transform: uppercase;
@@ -211,7 +237,7 @@ nav ul {
     border-radius: 40px;
     border: 2px solid #fff;
     transition: .5s all;
-}
+} */
 
 /* MEDIA QUERIES */
 @media (min-width: 320px) and (max-width: 480px) {
