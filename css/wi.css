@@ -516,7 +516,7 @@ p.persona-list-title:nth-of-type(2) {
 ********                            MEDIA QUERIES                   **********
 *****************************************************************************/
 
-@media (min-width: 320px) and (max-width: 500px) {
+@media (min-width: 320px) and (max-width: 1024px) {
     body {
         text-align: center;
     }
